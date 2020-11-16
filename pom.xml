@@ -84,8 +84,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>${tomcat7-maven-plugin.version}</version>
                 <configuration>
-                    <port>9090</port>
-                    <path>/codenotfound</path>
+                    <port>8080</port>
                 </configuration>
             </plugin>
         </plugins>

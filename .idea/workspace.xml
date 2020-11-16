@@ -3,21 +3,143 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="[NO-TASK] Initial commit.">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/CalendarEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/events.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/calendar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/js/theme-chooser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/get-events.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/get-time-zones.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/helloworld.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/planneruz/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/WEB-INF/classes/com/planneruz/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/WEB-INF/lib/jsf-api-2.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/WEB-INF/lib/jsf-impl-2.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/WEB-INF/lib/primefaces-8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/helloworld.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-11-11" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -46,16 +168,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/calendar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\view" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\json" />
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar\lib" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\resources\json" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,11 +218,47 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[NO-TASK] Initial commit." />
     <option name="LAST_COMMIT_MESSAGE" value="[NO-TASK] Initial commit." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605451599826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605451599826" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605469194924">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605469194924" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1605473158937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605473158937" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1605473158936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605473158936" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1605473158936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605473158936" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1605473158936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605473158936" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605111197046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
