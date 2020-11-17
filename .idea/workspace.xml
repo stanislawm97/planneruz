@@ -28,17 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="[NO-TASK] Initial commit.">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Login">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-11-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="FUP-38-Czapkin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +92,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -139,7 +133,7 @@
       <updated>1605049400913</updated>
       <workItem from="1605049402019" duration="316000" />
       <workItem from="1605110474104" duration="1569000" />
-      <workItem from="1605614064037" duration="9704000" />
+      <workItem from="1605614064037" duration="15556000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -148,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605111191615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Login">
+      <created>1605626694872</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605626694872</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,9 +182,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[NO-TASK] Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="[NO-TASK] Initial commit." />
+    <MESSAGE value="Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="512" y="236" key="#Notifications" timestamp="1605627503767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1605627503767" />
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605623926509">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -196,39 +203,43 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605623905107" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1605625298147">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1605628310417">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605625298147" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1605625298147">
+    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628310417" />
+    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1605628310416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605625298147" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1605625298146">
+    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
+    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1605628310416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605625298146" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1605625298147">
+    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1605628310416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605625298147" />
+    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1605623937068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1605623937068" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1605626484322">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1605626812919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605626484322" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605625668124">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605626812919" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605627474512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1280.0.1280.920@0.0.1536.824" timestamp="1605111197046" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605625668124" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605627474512" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605625907562">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605625907562" />
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605627668593">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1605627668593" />
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605111084161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
