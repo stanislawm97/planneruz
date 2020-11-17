@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound HTTP/1.1" 302 - http-bio-9090-exec-1 0
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/ HTTP/1.1" 200 4324 http-bio-9090-exec-3 189
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/javax.faces.resource/core.js.xhtml;jsessionid=31D566AD6D10B29ECC9D299648EACB1B?ln=primefaces&v=8.0 HTTP/1.1" 200 43146 http-bio-9090-exec-6 4
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=31D566AD6D10B29ECC9D299648EACB1B?ln=primefaces&v=8.0 HTTP/1.1" 200 88237 http-bio-9090-exec-2 5
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=31D566AD6D10B29ECC9D299648EACB1B?ln=primefaces&v=8.0 HTTP/1.1" 200 267621 http-bio-9090-exec-5 22
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/javax.faces.resource/components.js.xhtml;jsessionid=31D566AD6D10B29ECC9D299648EACB1B?ln=primefaces&v=8.0 HTTP/1.1" 200 435082 http-bio-9090-exec-7 22
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /codenotfound/javax.faces.resource/components.css.xhtml;jsessionid=31D566AD6D10B29ECC9D299648EACB1B?ln=primefaces&v=8.0 HTTP/1.1" 200 96300 http-bio-9090-exec-4 44
-0:0:0:0:0:0:0:1 - - [12/Nov/2020:15:53:56 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
