@@ -23,31 +23,25 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:FUP-23-polaczenie-bazy" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Login">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/login/background.png" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="jdbc dummy classes oraz dummy data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="HTTP Request" />
-        <option value="Jsp File" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -57,7 +51,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FUP-38-Czapkin" />
+        <entry key="$PROJECT_DIR$" value="FUP-23-polaczenie-bazy" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +59,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="E:\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -77,37 +71,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/database.mv.db" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matix\planneruz\src\main\webapp\view\login" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar\lib" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\resources\json" />
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\matix\planneruz\src\main\webapp\view\login" />
-      <recent name="C:\Users\matix\planneruz\src\main\webapp\view" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\view" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\calendar" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,7 +110,14 @@
       <updated>1605049400913</updated>
       <workItem from="1605049402019" duration="316000" />
       <workItem from="1605110474104" duration="1569000" />
-      <workItem from="1605614064037" duration="15556000" />
+      <workItem from="1605192660355" duration="7524000" />
+      <workItem from="1605450427827" duration="4642000" />
+      <workItem from="1605620465217" duration="2443000" />
+      <workItem from="1605625667130" duration="44000" />
+      <workItem from="1605626596663" duration="33000" />
+      <workItem from="1605628556861" duration="3044000" />
+      <workItem from="1605638402965" duration="2000" />
+      <workItem from="1605646841104" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -142,14 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605111191615</updated>
     </task>
-    <task id="LOCAL-00002" summary="Login">
-      <created>1605626694872</created>
+    <task id="LOCAL-00002" summary="Stworzona baza">
+      <created>1605454205877</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1605626694872</updated>
+      <updated>1605454205877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ekport tabel">
+      <created>1605620723286</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605620723286</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jdbc dummy classes oraz dummy data">
+      <created>1605631682911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631682911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +164,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="FUP-23-polaczenie-bazy" />
                       </list>
                     </value>
                   </entry>
@@ -180,66 +178,74 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="[NO-TASK] Initial commit." />
-    <MESSAGE value="Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login" />
+    <MESSAGE value="Stworzona baza" />
+    <MESSAGE value="ekport tabel" />
+    <MESSAGE value="jdbc dummy classes oraz dummy data" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc dummy classes oraz dummy data" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="512" y="236" key="#Notifications" timestamp="1605627503767">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="221" y="139" width="1202" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605646902451">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="512" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1605627503767" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605623926509">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="221" y="139" width="1202" height="731" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605646902451" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605630965455">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605623926509" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605451599826">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605630965455" />
+    <state x="1002" y="193" key="FileChooserDialogImpl" timestamp="1605631605731">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605451599826" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605623905107">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1002" y="193" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631605731" />
+    <state width="848" height="529" key="Git.Branch.Popup" timestamp="1605631701014">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605623905107" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1605628310417">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="848" height="529" key="Git.Branch.Popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631701014" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1605631672949">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605628310417" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1605628310416">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631672949" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1605631672949">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1605628310416">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631672949" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1605631672949">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1605628310416">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631672949" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1605631672949">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605628310416" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1605623937068">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631672949" />
+    <state width="229" height="471" key="HiddenNamespacesPopup" timestamp="1605196887448">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1605623937068" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1605626812919">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605626812919" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605627474512">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="229" height="471" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605196887448" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1605631690889">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1280.0.1280.920@0.0.1536.824" timestamp="1605111197046" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605627474512" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605625907562">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605631690889" />
+    <state x="714" y="349" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1605451138274">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605625907562" />
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605627668593">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="714" y="349" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605451138274" />
+    <state x="756" y="340" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1605451128591">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1605627668593" />
+    <state x="756" y="340" width="408" height="355" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605451128591" />
+    <state x="441" y="147" width="912" height="851" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1605454021591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="147" width="912" height="851" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605454021591" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605620636054">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605620636054" />
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605111084161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -248,9 +254,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824/-1280.0.1280.920@0.0.1536.824" timestamp="1605111922217" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605626524991">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605203995513">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605626524991" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605203995513" />
   </component>
 </project>
