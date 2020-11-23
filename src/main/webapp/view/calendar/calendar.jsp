@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -29,13 +29,13 @@
                 navLinks: true, // can click day/week names to navigate views
                 editable: false,
                 dayMaxEvents: true, // allow "more" link when too many events
-                events: 'http://localhost:8080/planneruz/get-calendar-events'
+                events: 'http://localhost:8080/planneruz/read-from-web'
             });
 
             calendar.render();
 
             // build the locale selector's options
-            calendar.getAvailableLocaleCodes().forEach(function(localeCode) {
+            calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
                 var optionEl = document.createElement('option');
                 optionEl.value = localeCode;
                 optionEl.selected = localeCode == initialLocaleCode;
