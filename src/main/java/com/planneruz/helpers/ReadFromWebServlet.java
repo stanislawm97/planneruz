@@ -47,7 +47,8 @@ public class ReadFromWebServlet extends HttpServlet {
             for (Element info : td) {
                 infos.add(info.text());
             }
-            if (infos.isEmpty()) continue;
+            //if (infos.isEmpty()) continue;
+            if (infos.size() < 8) continue;
 
             data.add(new WebData(infos));
         }
