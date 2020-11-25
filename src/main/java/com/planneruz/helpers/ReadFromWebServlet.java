@@ -56,7 +56,7 @@ public class ReadFromWebServlet extends HttpServlet {
         ArrayList<WebDataJsonClass> webDataJsonClasses = new ArrayList<>();
         for (WebData webData : data) {
             String id = String.valueOf(data.indexOf(webData));
-            String title = webData.tag + " - " + webData.name;
+            String title = webData.tag + " - " + webData.name + "   " + webData.lecturer;
 
             DateTimeZone timeZone = DateTimeZone.forID("Europe/Warsaw");
             DateTimeFormatter formatter = DateTimeFormat.forPattern("dd-MM-yyyy HH:mm").withZone(timeZone);
