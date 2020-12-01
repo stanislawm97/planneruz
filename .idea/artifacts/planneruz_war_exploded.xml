@@ -17,6 +17,7 @@
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.15" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.15" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:8.0" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.4.200" />
         </element>
       </element>
       <element id="directory" name="META-INF">

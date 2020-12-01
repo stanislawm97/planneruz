@@ -1,7 +1,7 @@
 package db.user;
 
-
 import java.util.Objects;
+
 
 public class User {
     private Long ID;
@@ -98,5 +98,18 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(ID, firstName, lastName, groupID, email, login, password);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "ID=" + ID +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", groupID=" + groupID +
+                ", email='" + email + '\'' +
+                ", login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
