@@ -22,26 +22,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/FUP-38-Czapkin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="no laczy sie z baza jakos tam">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b34a7a52-dbaa-4795-bb7c-7f5726634012.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b34a7a52-dbaa-4795-bb7c-7f5726634012.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/db/user/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,19 +96,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,9 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1002" y="193" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605697658674" />
-    <state width="860" height="541" key="Git.Branch.Popup" timestamp="1606834967772">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="694" height="435" key="Git.Branch.Popup" timestamp="1607346036504">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="694" height="435" key="Git.Branch.Popup/0.0.1536.824@0.0.1536.824" timestamp="1607346036504" />
     <state width="860" height="541" key="Git.Branch.Popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606834967772" />
     <state width="1877" height="309" key="GridCell.Tab.0.bottom" timestamp="1606838489755">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -290,10 +266,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="318" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824/-1280.0.1280.920@0.0.1536.824" timestamp="1605111084161" />
-    <state x="576" y="306" key="git4idea.ui.GitResetDialog" timestamp="1605111922217">
+    <state x="576" y="306" key="git4idea.ui.GitResetDialog" timestamp="1607346021552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="576" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824/-1280.0.1280.920@0.0.1536.824" timestamp="1605111922217" />
+    <state x="576" y="306" key="git4idea.ui.GitResetDialog/0.0.1536.824@0.0.1536.824" timestamp="1607346021552" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605203995513">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
