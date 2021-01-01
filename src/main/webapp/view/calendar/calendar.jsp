@@ -29,7 +29,7 @@
                 navLinks: true, // can click day/week names to navigate views
                 editable: false,
                 dayMaxEvents: true, // allow "more" link when too many events
-                events: 'http://planneruz.herokuapp.com/read-from-web'
+                events: 'http://localhost:8080/planneruz/read-from-web'
             });
 
             calendar.render();
