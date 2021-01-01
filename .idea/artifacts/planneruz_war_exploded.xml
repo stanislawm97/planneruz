@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="planneruz:war exploded">
-    <output-path>$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/planneruz</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -17,10 +17,12 @@
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.15" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.15" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:8.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:9.4.1208" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/planneruz/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="planneruz/web/Web" />
     </root>
