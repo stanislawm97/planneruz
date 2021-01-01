@@ -29,13 +29,13 @@
                 navLinks: true, // can click day/week names to navigate views
                 editable: false,
                 dayMaxEvents: true, // allow "more" link when too many events
-                events: 'http://localhost:8080/planneruz/get-calendar-events'
+                events: 'http://planneruz.herokuapp.com/read-from-web'
             });
 
             calendar.render();
 
             // build the locale selector's options
-            calendar.getAvailableLocaleCodes().forEach(function(localeCode) {
+            calendar.getAvailableLocaleCodes().forEach(function (localeCode) {
                 var optionEl = document.createElement('option');
                 optionEl.value = localeCode;
                 optionEl.selected = localeCode == initialLocaleCode;
