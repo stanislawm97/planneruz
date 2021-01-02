@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Connection settings -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">
+            jdbc:postgresql://ec2-52-48-65-240.eu-west-1.compute.amazonaws.com:5432/dsevdq9jdk2nv?sslmode=require
+        </property>
+        <property name="hibernate.connection.username">wzoavfeotagcwe</property>
+        <property name="hibernate.connection.password">
+            f2dca08aa1b1c8f855f0050618dcd3ac9cf7289b14d561f76d71e0fff4807b61
+        </property>
+
+        <!-- SQL dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <!-- Print executed SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <!-- Update database on startup -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Annotated entity classes -->
+        <mapping class="com.planneruz.entity.Car"/>
+
+    </session-factory>
+</hibernate-configuration>

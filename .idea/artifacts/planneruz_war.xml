@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="planneruz-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="planneruz.war">
       <element id="artifact" artifact-name="planneruz:war exploded" />
     </root>
   </artifact>
