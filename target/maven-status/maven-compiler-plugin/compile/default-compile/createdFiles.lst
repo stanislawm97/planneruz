@@ -1,0 +1,9 @@
+db\groups\Group.class
+db\subjects\Subject.class
+db\DatabaseUtil.class
+db\exams\Exam.class
+db\schedule\Schedule.class
+db\teachers\Teacher.class
+db\user\UserRepository.class
+com\planneruz\servlet\CalendarEvents.class
+db\user\User.class
