@@ -27,112 +27,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Działająca baza danych.">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Narazie wszystko działa, tylko syf w kodzie.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/impl/ConnectionPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/impl/QueryExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/json/events.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/calendar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/calendar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/js/theme-chooser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/locales-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-dz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-kw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-ly.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-ma.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-sa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar-tn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/en-nz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/es-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/kk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/nn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sr-cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/uz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/locales/zh-tw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/lib/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/get-events.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/php/get-events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/get-time-zones.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/php/get-time-zones.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/calendar/php/utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/php/utils.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/login/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -428,7 +324,7 @@
       <workItem from="1605638402965" duration="2000" />
       <workItem from="1605646841104" duration="62000" />
       <workItem from="1609340693435" duration="6347000" />
-      <workItem from="1609595490721" duration="7305000" />
+      <workItem from="1609595490721" duration="8844000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -458,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605631682911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Narazie wszystko działa, tylko syf w kodzie.">
+      <created>1609604236256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604236256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +397,8 @@
     <MESSAGE value="Stworzona baza" />
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc dummy classes oraz dummy data" />
+    <MESSAGE value="Narazie wszystko działa, tylko syf w kodzie." />
+    <option name="LAST_COMMIT_MESSAGE" value="Narazie wszystko działa, tylko syf w kodzie." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
