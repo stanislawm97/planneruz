@@ -1,6 +1,9 @@
 package com.planneruz.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -12,8 +15,7 @@ public class FieldOfStudy {
     @GeneratedValue
     private Long id;
     private String name;
-    @OneToMany
-    @JoinColumn(name = "group_id")
+    @OneToMany(mappedBy = "fieldOfStudy")
     private Set<Group> groups = new HashSet<>();
 
     public Long getId() {
@@ -52,4 +54,5 @@ public class FieldOfStudy {
     public int hashCode() {
         return Objects.hash(id, name, groups);
     }
+
 }

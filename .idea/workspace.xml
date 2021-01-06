@@ -22,33 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="drobne zmiany">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Stworzony model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/exams/Exam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/groups/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/schedule/Schedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/subjects/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/teachers/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/db/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/example_data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/DatabaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/exams/Exam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/groups/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/schedule/Schedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/subjects/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/teachers/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/user/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/json/events.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +85,19 @@
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -126,6 +120,8 @@
       <workItem from="1609686362431" duration="512000" />
       <workItem from="1609850371224" duration="11800000" />
       <workItem from="1609870169734" duration="2722000" />
+      <workItem from="1609872998649" duration="682000" />
+      <workItem from="1609950988782" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -155,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605631682911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stworzony model">
+      <created>1609873043941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609873043941</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +194,8 @@
     <MESSAGE value="Stworzona baza" />
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc dummy classes oraz dummy data" />
+    <MESSAGE value="Stworzony model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stworzony model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
