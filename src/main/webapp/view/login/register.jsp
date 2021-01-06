@@ -40,7 +40,7 @@
 
 
 <div class="text-center mt-5">
-    <form style="max-width: 450px; margin:auto;">
+    <form action="<%= request.getContextPath() %>/register" method="post" style="max-width: 450px; margin:auto;">
         <img class="mt-4 mb-4" src="avatar.png" height="72" alt="Avatar logo"/>
         <h1 class="h3 mb-3 font-weight-normal">Rejestracja</h1>
 
@@ -50,8 +50,8 @@
                 <input type="text" id="name" class="form-control" placeholder="Imię" required autofocus>
             </div>
             <div class="col-sm-6">
-                <label for="secondName" class="sr-only">Hasło</label>
-                <input type="text" id="secondName" placeholder="Nazwisko" class="form-control" required>
+                <label for="lastName" class="sr-only">Hasło</label>
+                <input type="text" id="lastName" placeholder="Nazwisko" class="form-control" required>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
         </div>
 
         <div class="mt-4" style="max-width: 300px; margin: auto;">
-            <button class="btn btn-lg btn-primary btn-block btn-grad">Rejestracja</button>
+            <button class="btn btn-lg btn-primary btn-block btn-grad" type="submit">Rejestracja</button>
         </div>
 
     </form>
