@@ -20,13 +20,21 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
         <!-- Print executed SQL to stdout -->
-        <property name="show_sql">true</property>
+        <property name="hibernate.show_sql">true</property>
 
         <!-- Update database on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
+        <property name="hibernate.current_session_context_class">thread</property>
+
         <!-- Annotated entity classes -->
-        <mapping class="com.planneruz.entity.Car"/>
+        <!--<mapping class="com.planneruz.entity.Car"/>-->
+        <mapping class="com.planneruz.model.User"/>
+        <mapping class="com.planneruz.model.Group"/>
+        <mapping class="com.planneruz.model.Exam"/>
+        <mapping class="com.planneruz.model.ClassDetails"/>
+        <mapping class="com.planneruz.model.Subject"/>
+        <mapping class="com.planneruz.model.Teacher"/>
 
     </session-factory>
 </hibernate-configuration>

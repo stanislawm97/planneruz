@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="planneruz:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -27,8 +22,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Narazie wszystko działa, tylko syf w kodzie.">
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="drobne zmiany">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/exams/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/groups/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/schedule/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/subjects/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/teachers/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/db/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/DatabaseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/exams/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/groups/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/schedule/Schedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/subjects/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/teachers/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/user/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/events.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +63,19 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="FUP-23-polaczenie-bazy" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1k7QxtAsbOKjnZHjm1zCM9w1KdG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -79,231 +91,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\resources" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\WEB-INF\view\login" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\resources\images" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz" />
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\resources" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\WEB-INF\view" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\resources\img" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.planneruz.dao.impl" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.107">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="planneruz" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 7.0.107" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.107" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/planneruz/" />
-      <option name="BROWSER_ID" value="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="planneruz:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/planneruz" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="4c3c056f-fa22-43fa-9fad-f48609da04a1" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52537" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="planneruz:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="BROWSER_ID" value="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="335a4c74-abff-4b5d-9cc6-27e13ae523cc" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52537" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.Runner" />
-      <item itemvalue="Tomcat Server.Tomcat 7.0.107" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Runner" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -323,8 +122,10 @@
       <workItem from="1605628556861" duration="3044000" />
       <workItem from="1605638402965" duration="2000" />
       <workItem from="1605646841104" duration="62000" />
-      <workItem from="1609340693435" duration="6347000" />
-      <workItem from="1609595490721" duration="8844000" />
+      <workItem from="1609615291936" duration="738000" />
+      <workItem from="1609686362431" duration="512000" />
+      <workItem from="1609850371224" duration="11800000" />
+      <workItem from="1609870169734" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -354,14 +155,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605631682911</updated>
     </task>
-    <task id="LOCAL-00005" summary="Narazie wszystko działa, tylko syf w kodzie.">
-      <created>1609604236256</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1609604236256</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,8 +191,7 @@
     <MESSAGE value="Stworzona baza" />
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
-    <MESSAGE value="Narazie wszystko działa, tylko syf w kodzie." />
-    <option name="LAST_COMMIT_MESSAGE" value="Narazie wszystko działa, tylko syf w kodzie." />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc dummy classes oraz dummy data" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
