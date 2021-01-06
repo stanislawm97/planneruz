@@ -28,13 +28,14 @@
         <property name="hibernate.current_session_context_class">thread</property>
 
         <!-- Annotated entity classes -->
-        <!--<mapping class="com.planneruz.entity.Car"/>-->
+        <mapping class="com.planneruz.entity.Car"/>
         <mapping class="com.planneruz.model.User"/>
         <mapping class="com.planneruz.model.Group"/>
         <mapping class="com.planneruz.model.Exam"/>
         <mapping class="com.planneruz.model.ClassDetails"/>
         <mapping class="com.planneruz.model.Subject"/>
         <mapping class="com.planneruz.model.Teacher"/>
+        <mapping class="com.planneruz.model.FieldOfStudy"/>
 
     </session-factory>
 </hibernate-configuration>
