@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="planneruz:war exploded">
-    <output-path>$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/planneruz</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -14,13 +14,38 @@
           <element id="module-output" name="planneruz" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse:yasson:1.0.6" />
+          <element id="library" level="project" name="Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2" />
+          <element id="library" level="project" name="Maven: jakarta.json:jakarta.json-api:1.1.6" />
+          <element id="library" level="project" name="Maven: org.glassfish:jakarta.json:module:1.1.6" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.10.8" />
+          <element id="library" level="project" name="Maven: javax.json.bind:javax.json.bind-api:1.0" />
+          <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.10.2" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.15" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.15" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:8.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.2.2.jre7" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.4.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.4.2" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.13" />
+          <element id="library" level="project" name="Maven: hibernate:hibernate-entitymanager:3.4.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:ejb3-persistence:1.0.2.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.1.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-annotations:3.4.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.3.0.SP1" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.4.GA" />
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/planneruz-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/planneruz/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="planneruz/web/Web" />
     </root>
