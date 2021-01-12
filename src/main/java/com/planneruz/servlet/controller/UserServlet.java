@@ -1,7 +1,7 @@
 package com.planneruz.servlet.controller;
 
 import com.planneruz.servlet.dao.UserDao;
-import com.planneruz.servlet.model.User;
+import com.planneruz.servlet.model.User_String;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -26,7 +26,7 @@ public class UserServlet extends HttpServlet {
         String group = request.getParameter("group");
         String secondGroup = request.getParameter("secondGroup");
 
-        User user = new User();
+        User_String user = new User_String();
 
         user.setName(name);
         user.setLastName(lastName);

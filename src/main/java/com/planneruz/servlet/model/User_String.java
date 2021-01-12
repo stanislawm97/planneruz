@@ -1,7 +1,13 @@
 package com.planneruz.servlet.model;
 
-public class User {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.io.Serializable;
 
+@Entity
+public class User_String implements Serializable {
+
+    @Id
     private String name;
     private String lastName;
     private String password;

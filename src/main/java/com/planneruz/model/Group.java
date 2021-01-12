@@ -14,7 +14,7 @@ public class Group {
     private String name;
     private String subgroup;
     @OneToMany(mappedBy = "group")
-    private Set<User> users = new HashSet<>();
+    private Set<NotUser> users = new HashSet<>();
     @ManyToMany(mappedBy = "groups")
     private Set<Exam> exams = new HashSet<>();
     @ManyToMany(mappedBy = "groups")
