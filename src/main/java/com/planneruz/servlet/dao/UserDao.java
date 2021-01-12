@@ -1,7 +1,7 @@
 package com.planneruz.servlet.dao;
 
 
-import com.planneruz.servlet.model.User;
+import com.planneruz.servlet.model.User_String;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class UserDao {
 
-    public int registerUser(User user) throws ClassNotFoundException {
+    public int registerUser(User_String user) throws ClassNotFoundException {
 
         String INSERT_USERS_SQL = "INSERT INTO User " +
                 " (FIRST_NAME, LAST_NAME, GROUP_ID, SECOND_GROUP_ID, FIELD, PASSWORD) VALUES" +

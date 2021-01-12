@@ -29,7 +29,8 @@
 
         <!-- Annotated entity classes -->
         <mapping class="com.planneruz.entity.Car"/>
-        <mapping class="com.planneruz.model.User"/>
+        <mapping class="com.planneruz.servlet.model.User_String"/>
+        <mapping class="com.planneruz.model.NotUser"/>
         <mapping class="com.planneruz.model.Group"/>
         <mapping class="com.planneruz.model.Exam"/>
         <mapping class="com.planneruz.model.ClassDetails"/>

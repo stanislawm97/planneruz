@@ -1,6 +1,7 @@
 package com.planneruz.servlet;
 
 import com.planneruz.entity.Car;
+import com.planneruz.servlet.model.User_String;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -15,8 +16,8 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/test")
-public class Test extends HttpServlet {
+@WebServlet(urlPatterns = "/usertest")
+public class UserTest extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         PrintWriter writer = response.getWriter();
@@ -28,13 +29,13 @@ public class Test extends HttpServlet {
         Session session = sessionFactory.openSession();
 
         create(writer, session);
-        read(writer, session);
+        // read(writer, session);
 
-        update(writer, session);
-        read(writer, session);
+        //update(writer, session);
+        // read(writer, session);
 
-        delete(writer, session);
-        read(writer, session);
+        //delete(writer, session);
+        //read(writer, session);
 
         session.close();
     }
@@ -60,18 +61,18 @@ public class Test extends HttpServlet {
     }
 
     private void create(PrintWriter writer, Session session) {
-        writer.println("Creating car records...");
-        Car mustang = new Car();
-        mustang.setModel("maluch");
-        mustang.setPrice("£3.00");
-
-        Car mondeo = new Car();
-        mondeo.setModel("mondeo");
-        mondeo.setPrice("£20,000.00");
+        writer.println("Creating user records...");
+        User_String mateusz = new User_String();
+        mateusz.setName("Mateusz");
+        mateusz.setLastName("Znojek");
+        mateusz.setPassword("abcd123");
+        mateusz.setEmail("siema@eniu.pl");
+        mateusz.setField("Gierki kakuterowe");
+        mateusz.setGroup("INF");
+        mateusz.setSecondGroup("B");
 
         session.beginTransaction();
-        session.save(mustang);
-        session.save(mondeo);
+        session.save(mateusz);
         session.getTransaction().commit();
     }
 
@@ -89,3 +90,4 @@ public class Test extends HttpServlet {
         }
     }
 }
+

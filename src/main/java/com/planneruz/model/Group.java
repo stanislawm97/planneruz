@@ -14,8 +14,9 @@ public class Group {
     private String name;
     private String subgroup;
     @OneToMany(mappedBy = "group")
+    private Set<NotUser> users = new HashSet<>();
+    @OneToMany(mappedBy = "groups")
     @JoinColumn
-    private Set<User> users = new HashSet<>();
     @ManyToMany
     @JoinTable(
             joinColumns = {@JoinColumn(name = "group_id")},
@@ -31,38 +32,6 @@ public class Group {
     @ManyToOne
     @JoinColumn(name = "field_id")
     private FieldOfStudy fieldOfStudy;
-
-    public Set<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(Set<User> users) {
-        this.users = users;
-    }
-
-    public Set<Exam> getExams() {
-        return exams;
-    }
-
-    public void setExams(Set<Exam> exams) {
-        this.exams = exams;
-    }
-
-    public Set<ClassDetails> getClassDetails() {
-        return classDetails;
-    }
-
-    public void setClassDetails(Set<ClassDetails> classDetails) {
-        this.classDetails = classDetails;
-    }
-
-    public FieldOfStudy getFieldOfStudy() {
-        return fieldOfStudy;
-    }
-
-    public void setFieldOfStudy(FieldOfStudy fieldOfStudy) {
-        this.fieldOfStudy = fieldOfStudy;
-    }
 
     public Long getId() {
         return id;
