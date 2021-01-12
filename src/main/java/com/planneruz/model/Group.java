@@ -15,12 +15,22 @@ public class Group {
     private String subgroup;
     @OneToMany(mappedBy = "group")
     private Set<NotUser> users = new HashSet<>();
-    @ManyToMany(mappedBy = "groups")
+    @OneToMany(mappedBy = "groups")
+    @JoinColumn
+    @ManyToMany
+    @JoinTable(
+            joinColumns = {@JoinColumn(name = "group_id")},
+            inverseJoinColumns = {@JoinColumn(name = "exam_id")}
+    )
     private Set<Exam> exams = new HashSet<>();
-    @ManyToMany(mappedBy = "groups")
+    @ManyToMany
+    @JoinTable(
+            joinColumns = {@JoinColumn(name = "group_id")},
+            inverseJoinColumns = {@JoinColumn(name = "class_id")}
+    )
     private Set<ClassDetails> classDetails = new HashSet<>();
     @ManyToOne
-    @JoinColumn(name = "field_of_study_id")
+    @JoinColumn(name = "field_id")
     private FieldOfStudy fieldOfStudy;
 
     public Long getId() {

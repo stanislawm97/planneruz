@@ -1,6 +1,9 @@
 package com.planneruz.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import java.sql.Timestamp;
 import java.util.HashSet;
 import java.util.Objects;
@@ -15,13 +18,10 @@ public class Exam {
     private Long id;
     private String title;
     private String description;
-    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinTable(
-            joinColumns = {@JoinColumn(name = "exam_id")},
-            inverseJoinColumns = {@JoinColumn(name = "group_id")}
-    )
+    @ManyToMany(mappedBy = "exams")
     private Set<Group> groups = new HashSet<>();
     private Timestamp examDate;
+
 
     public Long getId() {
         return id;

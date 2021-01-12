@@ -37,6 +37,7 @@
         <mapping class="com.planneruz.model.Subject"/>
         <mapping class="com.planneruz.model.Teacher"/>
         <mapping class="com.planneruz.model.FieldOfStudy"/>
+        <mapping class="com.planneruz.model.TestModel"/>
 
     </session-factory>
 </hibernate-configuration>
