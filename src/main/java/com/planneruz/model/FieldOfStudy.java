@@ -18,6 +18,7 @@ public class FieldOfStudy {
     @OneToMany(mappedBy = "fieldOfStudy")
     private Set<Group> groups = new HashSet<>();
 
+
     public Long getId() {
         return id;
     }

@@ -20,6 +20,15 @@ public class User {
     private String login;
     private String password;
 
+
+    public Group getGroup() {
+        return group;
+    }
+
+    public void setGroup(Group group) {
+        this.group = group;
+    }
+
     public Long getId() {
         return id;
     }

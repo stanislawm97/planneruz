@@ -16,6 +16,14 @@ public class Subject {
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "subject")
     private ClassDetails classDetails;
 
+    public ClassDetails getClassDetails() {
+        return classDetails;
+    }
+
+    public void setClassDetails(ClassDetails classDetails) {
+        this.classDetails = classDetails;
+    }
+
     public Long getId() {
         return id;
     }
