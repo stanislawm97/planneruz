@@ -20,12 +20,9 @@ public class ClassDetails {
     @ManyToOne
     @JoinColumn(name = "teacher_id")
     private Teacher teacher;
-    @ManyToMany
-    @JoinTable(
-            joinColumns = {@JoinColumn(name = "class_id")},
-            inverseJoinColumns = {@JoinColumn(name = "group_id")}
-    )
+    @ManyToMany(mappedBy = "classDetails")
     private Set<Group> groups = new HashSet<>();
+
 
     public Long getId() {
         return id;

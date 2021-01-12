@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="planneruz:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -22,13 +27,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Stworzony model">
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Juz dziala model dobrze">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/TestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2_jre7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/example_data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +60,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -57,6 +67,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1k7QxtAsbOKjnZHjm1zCM9w1KdG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -86,15 +103,92 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Tomcat 9.0.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.39" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="planneruz:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="bf7d7667-4919-452b-af95-cad39fffe7ea" />
+        <option name="JNDI_PORT" value="8019" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8145" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="planneruz:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -121,7 +215,15 @@
       <workItem from="1609850371224" duration="11800000" />
       <workItem from="1609870169734" duration="2722000" />
       <workItem from="1609872998649" duration="682000" />
-      <workItem from="1609950988782" duration="3640000" />
+      <workItem from="1609950988782" duration="4534000" />
+      <workItem from="1610182312821" duration="626000" />
+      <workItem from="1610194160616" duration="4170000" />
+      <workItem from="1610200517101" duration="11000" />
+      <workItem from="1610208667489" duration="595000" />
+      <workItem from="1610286915722" duration="39000" />
+      <workItem from="1610291720817" duration="1124000" />
+      <workItem from="1610298351925" duration="996000" />
+      <workItem from="1610371676298" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -158,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609873043941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Juz dziala model dobrze">
+      <created>1609954847210</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609954847210</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +304,8 @@
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
     <MESSAGE value="Stworzony model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stworzony model" />
+    <MESSAGE value="Juz dziala model dobrze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Juz dziala model dobrze" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
