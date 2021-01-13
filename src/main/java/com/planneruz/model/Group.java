@@ -15,7 +15,6 @@ public class Group {
     private String subgroup;
     @OneToMany(mappedBy = "group")
     private Set<NotUser> users = new HashSet<>();
-    @OneToMany(mappedBy = "groups")
     @JoinColumn
     @ManyToMany
     @JoinTable(

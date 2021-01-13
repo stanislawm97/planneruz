@@ -63,12 +63,12 @@ public class UserTestV2 extends HttpServlet {
     private void create(PrintWriter writer, Session session) {
         writer.println("Creating user records...");
         NotUser mateusz = new NotUser();
-        mateusz.setId((long) 1);
-        mateusz.setFirstName("Mateusz");
-        mateusz.setLastName("Znojek");
+        mateusz.setId((long) 2);
+        mateusz.setFirstName("Adam");
+        mateusz.setLastName("Małysz");
         mateusz.setPassword("abcd123");
-        mateusz.setEmail("siema@eniu.pl");
-        mateusz.setLogin("Czapkin");
+        mateusz.setEmail("adam@malysz.pl");
+        mateusz.setLogin("malysz");
 
 
         session.beginTransaction();

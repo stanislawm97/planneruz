@@ -33,7 +33,7 @@ public class UserServlet extends HttpServlet {
         user.setPassword(password);
         user.setEmail(email);
         user.setField(field);
-        user.setGroup(group);
+        user.setGroupa(group);
         user.setSecondGroup(secondGroup);
 
         try {

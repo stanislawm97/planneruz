@@ -27,8 +27,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Narazie wszystko działa, tylko syf w kodzie.">
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Dodawanie użytkownika do bazy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTestV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTestV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/model/User_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/model/User_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,18 +105,29 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.planneruz.entity" />
       <recent name="com.planneruz.dao.impl" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.107">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="planneruz" />
       <option name="PACKAGE_NAME" value="" />
@@ -291,6 +313,7 @@
       <list>
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +340,7 @@
       <workItem from="1609850371224" duration="11800000" />
       <workItem from="1609870169734" duration="2722000" />
       <workItem from="1610209135423" duration="838000" />
+      <workItem from="1610532851786" duration="6686000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -346,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605631682911</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dodawanie użytkownika do bazy">
+      <created>1610479378558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610479378558</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,17 +389,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
               <option name="COLUMN_WIDTH">
                 <map>
                   <entry key="2" value="89" />
@@ -388,23 +408,56 @@
     <MESSAGE value="Stworzona baza" />
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc dummy classes oraz dummy data" />
+    <MESSAGE value="Dodawanie użytkownika do bazy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodawanie użytkownika do bazy" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="236" key="#Notifications" timestamp="1610479440098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="520" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1610479440098" />
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610533017900">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1610533017900" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610537474800">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1610537474800" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1610466586456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610466586456" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610466024299">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1610538880705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610466024299" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610466314725">
+    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610538880705" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1610538880705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610466314725" />
+    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610538880705" />
+    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1610538880705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610538880705" />
+    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1610538880705">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610538880705" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610479427339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610479427339" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610539920123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610539920123" />
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1610479166661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1610479166661" />
   </component>
 </project>

@@ -40,29 +40,30 @@
 
 
 <div class="text-center mt-5">
-    <form action="<%= request.getContextPath() %>/register" method="post" style="max-width: 450px; margin:auto;">
+    <form action="<%=request.getContextPath()%>/registerr" method="post" style="max-width: 450px; margin:auto;">
         <img class="mt-4 mb-4" src="../../resources/img/avatar.png" height="72" alt="Avatar logo"/>
         <h1 class="h3 mb-3 font-weight-normal">Rejestracja</h1>
 
         <div class="row">
             <div class="col-sm-6">
                 <label for="name" class="sr-only">Imię</label>
-                <input type="text" id="name" class="form-control" placeholder="Imię" required autofocus>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Imię" required autofocus>
             </div>
             <div class="col-sm-6">
-                <label for="lastName" class="sr-only">Hasło</label>
-                <input type="text" id="lastName" placeholder="Nazwisko" class="form-control" required>
+                <label for="lastName" class="sr-only">Nazwisko</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control" required>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-sm-6">
                 <label for="name" class="sr-only">Hasło</label>
-                <input type="password" id="password" class="form-control" placeholder="Hasło" required>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Hasło" required>
             </div>
             <div class="col-sm-6">
                 <label for="repeatPassword" class="sr-only">Hasło</label>
-                <input type="password" id="repeatPassword" placeholder="Powtórz hasło" class="form-control" required>
+                <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Powtórz hasło"
+                       class="form-control" required>
             </div>
         </div>
 
@@ -70,7 +71,7 @@
         <div class="row mt-4">
             <div class="col-sm-6">
                 <label for="email" class="sr-only">email</label>
-                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
             </div>
             <div class="col-sm-6">
                 <label for="field" class="sr-only">Kierunek: </label>
@@ -100,7 +101,8 @@
         </div>
 
         <div class="mt-4" style="max-width: 300px; margin: auto;">
-            <button class="btn btn-lg btn-primary btn-block btn-grad" type="submit">Rejestracja</button>
+            <button class="btn btn-lg btn-primary btn-block btn-grad" type="submit" value="register">Rejestracja
+            </button>
         </div>
 
     </form>
