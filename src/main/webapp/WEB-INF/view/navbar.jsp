@@ -48,7 +48,7 @@
 
             <!-- Search -->
             <form class="navbar-form navbar-right" role="search">
-                <div class="form-group">
+                <div class="form-studentGroup">
                     <input type="text" class="form-control">
                 </div>
                 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search

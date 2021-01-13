@@ -84,8 +84,8 @@
 
         <div class="row mt-4">
             <div class="col-sm-6">
-                <label for="group" class="sr-only">Grupa: </label>
-                <select name="group" id="group">
+                <label for="studentGroup" class="sr-only">Grupa: </label>
+                <select name="studentGroup" id="studentGroup">
                     <option disabled selected value>Grupa</option>
                     <option value="33INF-SSI-SP">33INF-SSI-SP</option>
                 </select>

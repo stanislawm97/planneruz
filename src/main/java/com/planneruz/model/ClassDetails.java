@@ -21,7 +21,7 @@ public class ClassDetails {
     @JoinColumn(name = "teacher_id")
     private Teacher teacher;
     @ManyToMany(mappedBy = "classDetails")
-    private Set<Group> groups = new HashSet<>();
+    private Set<StudentGroup> studentGroups = new HashSet<>();
 
 
     public Long getId() {
@@ -72,12 +72,12 @@ public class ClassDetails {
         this.teacher = teacher;
     }
 
-    public Set<Group> getGroups() {
-        return groups;
+    public Set<StudentGroup> getGroups() {
+        return studentGroups;
     }
 
-    public void setGroups(Set<Group> groups) {
-        this.groups = groups;
+    public void setGroups(Set<StudentGroup> studentGroups) {
+        this.studentGroups = studentGroups;
     }
 
     @Override
@@ -85,11 +85,11 @@ public class ClassDetails {
         if (this == o) return true;
         if (!(o instanceof ClassDetails)) return false;
         ClassDetails that = (ClassDetails) o;
-        return Objects.equals(id, that.id) && Objects.equals(dayOfWeek, that.dayOfWeek) && Objects.equals(startTime, that.startTime) && Objects.equals(endTime, that.endTime) && Objects.equals(subject, that.subject) && Objects.equals(teacher, that.teacher) && Objects.equals(groups, that.groups);
+        return Objects.equals(id, that.id) && Objects.equals(dayOfWeek, that.dayOfWeek) && Objects.equals(startTime, that.startTime) && Objects.equals(endTime, that.endTime) && Objects.equals(subject, that.subject) && Objects.equals(teacher, that.teacher) && Objects.equals(studentGroups, that.studentGroups);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, dayOfWeek, startTime, endTime, subject, teacher, groups);
+        return Objects.hash(id, dayOfWeek, startTime, endTime, subject, teacher, studentGroups);
     }
 }
