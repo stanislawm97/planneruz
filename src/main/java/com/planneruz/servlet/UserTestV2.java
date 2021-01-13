@@ -2,6 +2,7 @@ package com.planneruz.servlet;
 
 import com.planneruz.entity.Car;
 import com.planneruz.model.NotUser;
+import com.planneruz.model.StudentGroup;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -63,12 +64,18 @@ public class UserTestV2 extends HttpServlet {
     private void create(PrintWriter writer, Session session) {
         writer.println("Creating user records...");
         NotUser mateusz = new NotUser();
+        int id = 1;
+        StudentGroup groupa = new StudentGroup();
+
+        groupa = (StudentGroup) session.createQuery("FROM studentgroup WHERE id = :id").setParameter("id", id).uniqueResult();
+
         mateusz.setId((long) 2);
-        mateusz.setFirstName("Adam");
-        mateusz.setLastName("Małysz");
-        mateusz.setPassword("abcd123");
-        mateusz.setEmail("adam@malysz.pl");
-        mateusz.setLogin("malysz");
+        mateusz.setFirstName("Pan");
+        mateusz.setLastName("Paweł");
+        mateusz.setPassword("szimanochy");
+        mateusz.setEmail("tosie@kameruje.pl");
+        mateusz.setLogin("rzeczywiscie");
+        mateusz.setGroup(groupa);
 
 
         session.beginTransaction();
