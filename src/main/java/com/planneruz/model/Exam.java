@@ -19,7 +19,7 @@ public class Exam {
     private String title;
     private String description;
     @ManyToMany(mappedBy = "exams")
-    private Set<Group> groups = new HashSet<>();
+    private Set<StudentGroup> studentGroups = new HashSet<>();
     private Timestamp examDate;
 
 
@@ -47,12 +47,12 @@ public class Exam {
         this.description = description;
     }
 
-    public Set<Group> getGroups() {
-        return groups;
+    public Set<StudentGroup> getGroups() {
+        return studentGroups;
     }
 
-    public void setGroups(Set<Group> groups) {
-        this.groups = groups;
+    public void setGroups(Set<StudentGroup> studentGroups) {
+        this.studentGroups = studentGroups;
     }
 
     public Timestamp getExamDate() {
@@ -68,11 +68,11 @@ public class Exam {
         if (this == o) return true;
         if (!(o instanceof Exam)) return false;
         Exam exam = (Exam) o;
-        return Objects.equals(id, exam.id) && Objects.equals(title, exam.title) && Objects.equals(description, exam.description) && Objects.equals(groups, exam.groups);
+        return Objects.equals(id, exam.id) && Objects.equals(title, exam.title) && Objects.equals(description, exam.description) && Objects.equals(studentGroups, exam.studentGroups);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, description, groups);
+        return Objects.hash(id, title, description, studentGroups);
     }
 }

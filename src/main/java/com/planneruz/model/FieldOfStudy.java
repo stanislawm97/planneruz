@@ -16,7 +16,7 @@ public class FieldOfStudy {
     private Long id;
     private String name;
     @OneToMany(mappedBy = "fieldOfStudy")
-    private Set<Group> groups = new HashSet<>();
+    private Set<StudentGroup> studentGroups = new HashSet<>();
 
 
     public Long getId() {
@@ -35,12 +35,12 @@ public class FieldOfStudy {
         this.name = name;
     }
 
-    public Set<Group> getGroups() {
-        return groups;
+    public Set<StudentGroup> getGroups() {
+        return studentGroups;
     }
 
-    public void setGroups(Set<Group> groups) {
-        this.groups = groups;
+    public void setGroups(Set<StudentGroup> studentGroups) {
+        this.studentGroups = studentGroups;
     }
 
     @Override
@@ -48,12 +48,12 @@ public class FieldOfStudy {
         if (this == o) return true;
         if (!(o instanceof FieldOfStudy)) return false;
         FieldOfStudy that = (FieldOfStudy) o;
-        return Objects.equals(id, that.id) && Objects.equals(name, that.name) && Objects.equals(groups, that.groups);
+        return Objects.equals(id, that.id) && Objects.equals(name, that.name) && Objects.equals(studentGroups, that.studentGroups);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, groups);
+        return Objects.hash(id, name, studentGroups);
     }
 
 }
