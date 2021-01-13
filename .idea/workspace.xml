@@ -28,7 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Narazie wszystko działa, tylko syf w kodzie.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/TestModel2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/StudentGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/NotUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/model/NotUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +115,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.107">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="planneruz" />
       <option name="PACKAGE_NAME" value="" />
@@ -392,19 +412,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1610466586456">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610466586456" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610466024299">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610466024299" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610466314725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610466314725" />
   </component>
 </project>

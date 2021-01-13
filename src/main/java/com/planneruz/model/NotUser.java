@@ -14,7 +14,7 @@ public class NotUser implements Serializable {
     private String lastName;
     @ManyToOne
     @JoinColumn(name = "group_id")
-    private Group group;
+    private StudentGroup studentGroup;
     @Column(unique = true)
     private String email;
     @Column(unique = true)
@@ -22,12 +22,12 @@ public class NotUser implements Serializable {
     private String password;
 
 
-    public Group getGroup() {
-        return group;
+    public StudentGroup getGroup() {
+        return studentGroup;
     }
 
-    public void setGroup(Group group) {
-        this.group = group;
+    public void setGroup(StudentGroup studentGroup) {
+        this.studentGroup = studentGroup;
     }
 
     public Long getId() {

@@ -31,13 +31,12 @@
         <mapping class="com.planneruz.entity.Car"/>
         <mapping class="com.planneruz.servlet.model.User_String"/>
         <mapping class="com.planneruz.model.NotUser"/>
-        <mapping class="com.planneruz.model.Group"/>
+        <mapping class="com.planneruz.model.StudentGroup"/>
         <mapping class="com.planneruz.model.Exam"/>
         <mapping class="com.planneruz.model.ClassDetails"/>
         <mapping class="com.planneruz.model.Subject"/>
         <mapping class="com.planneruz.model.Teacher"/>
         <mapping class="com.planneruz.model.FieldOfStudy"/>
-        <mapping class="com.planneruz.model.TestModel"/>
 
     </session-factory>
 </hibernate-configuration>

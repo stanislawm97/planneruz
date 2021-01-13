@@ -6,17 +6,13 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-public class Group {
+public class StudentGroup {
 
     @Id
     @GeneratedValue
     private Long id;
     private String name;
     private String subgroup;
-    @OneToMany(mappedBy = "group")
-    private Set<NotUser> users = new HashSet<>();
-    @OneToMany(mappedBy = "groups")
-    @JoinColumn
     @ManyToMany
     @JoinTable(
             joinColumns = {@JoinColumn(name = "group_id")},
@@ -60,13 +56,13 @@ public class Group {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Group)) return false;
-        Group group = (Group) o;
-        return Objects.equals(id, group.id) && Objects.equals(name, group.name) && Objects.equals(subgroup, group.subgroup) && Objects.equals(users, group.users) && Objects.equals(exams, group.exams) && Objects.equals(classDetails, group.classDetails) && Objects.equals(fieldOfStudy, group.fieldOfStudy);
+        if (!(o instanceof StudentGroup)) return false;
+        StudentGroup studentGroup = (StudentGroup) o;
+        return Objects.equals(id, studentGroup.id) && Objects.equals(name, studentGroup.name) && Objects.equals(subgroup, studentGroup.subgroup) && Objects.equals(exams, studentGroup.exams) && Objects.equals(classDetails, studentGroup.classDetails) && Objects.equals(fieldOfStudy, studentGroup.fieldOfStudy);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, subgroup, users, exams, classDetails, fieldOfStudy);
+        return Objects.hash(id, name, subgroup, exams, classDetails, fieldOfStudy);
     }
 }
