@@ -2,6 +2,7 @@ package com.planneruz.servlet;
 
 import com.planneruz.entity.Car;
 import com.planneruz.model.NotUser;
+import com.planneruz.model.StudentGroup;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -27,8 +28,14 @@ public class UserTestV2 extends HttpServlet {
     public void crud(PrintWriter writer) {
         SessionFactory sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
         Session session = sessionFactory.openSession();
+        session.beginTransaction();
 
-        create(writer, session);
+        NotUser user = (NotUser) session.createQuery("FROM NotUser U WHERE U.email = :email").setParameter("email", "siema@eniu.pl")
+                .uniqueResult();
+
+        writer.println(user.getFirstName());
+
+        //create(writer, session);
         // read(writer, session);
 
         //update(writer, session);
@@ -63,12 +70,18 @@ public class UserTestV2 extends HttpServlet {
     private void create(PrintWriter writer, Session session) {
         writer.println("Creating user records...");
         NotUser mateusz = new NotUser();
+        Long id = 1L;
+        StudentGroup groupa = new StudentGroup();
+
+        groupa = (StudentGroup) session.get(StudentGroup.class, id);
+
         mateusz.setId((long) 1);
-        mateusz.setFirstName("Mateusz");
-        mateusz.setLastName("Znojek");
-        mateusz.setPassword("abcd123");
-        mateusz.setEmail("siema@eniu.pl");
-        mateusz.setLogin("Czapkin");
+        mateusz.setFirstName("Pan");
+        mateusz.setLastName("Paweł");
+        mateusz.setPassword("szimanochy");
+        mateusz.setEmail("tosie@kameruje.pl");
+        mateusz.setLogin("rzeczywiscie");
+        mateusz.setGroup(groupa);
 
 
         session.beginTransaction();
