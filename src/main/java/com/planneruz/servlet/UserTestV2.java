@@ -28,8 +28,14 @@ public class UserTestV2 extends HttpServlet {
     public void crud(PrintWriter writer) {
         SessionFactory sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
         Session session = sessionFactory.openSession();
+        session.beginTransaction();
 
-        create(writer, session);
+        NotUser user = (NotUser) session.createQuery("FROM NotUser U WHERE U.email = :email").setParameter("email", "siema@eniu.pl")
+                .uniqueResult();
+
+        writer.println(user.getFirstName());
+
+        //create(writer, session);
         // read(writer, session);
 
         //update(writer, session);
@@ -64,12 +70,12 @@ public class UserTestV2 extends HttpServlet {
     private void create(PrintWriter writer, Session session) {
         writer.println("Creating user records...");
         NotUser mateusz = new NotUser();
-        int id = 1;
+        Long id = 1L;
         StudentGroup groupa = new StudentGroup();
 
-        groupa = (StudentGroup) session.createQuery("FROM studentgroup WHERE id = :id").setParameter("id", id).uniqueResult();
+        groupa = (StudentGroup) session.get(StudentGroup.class, id);
 
-        mateusz.setId((long) 2);
+        mateusz.setId((long) 1);
         mateusz.setFirstName("Pan");
         mateusz.setLastName("Paweł");
         mateusz.setPassword("szimanochy");

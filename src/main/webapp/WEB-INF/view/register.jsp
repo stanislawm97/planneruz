@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
+
     <title>Rejestracja</title>
 
 </head>
@@ -36,33 +37,43 @@
         text-decoration: none;
     }
 
+
 </style>
 
 
 <div class="text-center mt-5">
-    <form action="<%=request.getContextPath()%>/registerr" method="post" style="max-width: 450px; margin:auto;">
-        <img class="mt-4 mb-4" src="../../resources/img/avatar.png" height="72" alt="Avatar logo"/>
+    <form action="<%=request.getContextPath()%>/register" method="post" style="max-width: 450px; margin:auto;"
+          oninput='repeatPassword.setCustomValidity(repeatPassword.value != password.value ? "Hasła nie są takie same" : "")'>
+        <img class="mt-4 mb-4" src="resources/img/avatar.png" height="72" alt="Avatar logo"/>
         <h1 class="h3 mb-3 font-weight-normal">Rejestracja</h1>
 
         <div class="row">
             <div class="col-sm-6">
                 <label for="name" class="sr-only">Imię</label>
-                <input type="text" id="name" name="name" class="form-control" placeholder="Imię" required autofocus>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Imię"
+                       pattern="[A-Za-z0-9]{3,}"
+                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required autofocus>
             </div>
             <div class="col-sm-6">
                 <label for="lastName" class="sr-only">Nazwisko</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control"
+                       pattern="[A-Za-z0-9]{3,}"
+                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-sm-6">
                 <label for="name" class="sr-only">Hasło</label>
-                <input type="password" id="password" name="password" class="form-control" placeholder="Hasło" required>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Hasło"
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       title="Musi posiadać co najmniej jedną wielką literę, jedną cyfrę i 8 znaków" required>
             </div>
             <div class="col-sm-6">
                 <label for="repeatPassword" class="sr-only">Hasło</label>
                 <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Powtórz hasło"
+                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                       title="Musi posiadać co najmniej jedną wielką literę, jedną cyfrę i 8 znaków"
                        class="form-control" required>
             </div>
         </div>
@@ -70,29 +81,43 @@
 
         <div class="row mt-4">
             <div class="col-sm-6">
-                <label for="email" class="sr-only">email</label>
+                <label for="login" class="sr-only">email</label>
+                <input type="text" id="login" name="login" class="form-control" placeholder="Login"
+                       pattern="[A-Za-z0-9]{3,}"
+                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
+            </div>
+            <div class="col-sm-6">
+                <label for="login" class="sr-only">login</label>
                 <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
             </div>
+        </div>
+
+
+        <div class="row mt-4">
             <div class="col-sm-6">
                 <label for="field" class="sr-only">Kierunek: </label>
                 <select name="field" id="field">
                     <option disabled selected value>Kierunek studiów</option>
                     <option value="Informatyka">Informatyka</option>
                 </select>
+
             </div>
+            <div class="col-sm-6">
+                <label for="groupCode" class="sr-only">Grupa: </label>
+                <select name="groupCode" id="groupCode">
+                    <option disabled selected value>Grupa</option>
+                    <option value="32INF">32INF</option>
+                    <option value="31INF">31INF</option>
+                </select>
+
+            </div>
+
         </div>
 
         <div class="row mt-4">
             <div class="col-sm-6">
-                <label for="studentGroup" class="sr-only">Grupa: </label>
-                <select name="studentGroup" id="studentGroup">
-                    <option disabled selected value>Grupa</option>
-                    <option value="33INF-SSI-SP">33INF-SSI-SP</option>
-                </select>
-            </div>
-            <div class="col-sm-6">
-                <label for="secondGroup" class="sr-only">Podgrupa: </label>
-                <select name="secondGroup" id="secondGroup">
+                <label for="subGroup" class="sr-only">Podgrupa: </label>
+                <select name="subGroup" id="subGroup">
                     <option disabled selected value>Podgrupa</option>
                     <option value="A">A</option>
                     <option value="B">B</option>

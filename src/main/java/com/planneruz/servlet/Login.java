@@ -1,45 +1,50 @@
 package com.planneruz.servlet;
 
-import com.planneruz.model.NotUser;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.AnnotationConfiguration;
+import com.planneruz.dao.NotUserDAO;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet(urlPatterns = "/login")
 public class Login extends HttpServlet {
     private static final long serialVersionUID = 1L;
+    private NotUserDAO loginDao;
 
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-        request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
-
+    public void init() {
+        loginDao = new NotUserDAO();
     }
 
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
+    }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        try {
+            authenticate(request, response);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
 
-        PrintWriter writer = response.getWriter();
-
-        SessionFactory sessionFactory = new AnnotationConfiguration().configure().buildSessionFactory();
-        Session session = sessionFactory.openSession();
-
-        NotUser user = null;
-        String email = request.getParameter("email");
+    private void authenticate(HttpServletRequest request, HttpServletResponse response)
+            throws Exception {
+        String mail = request.getParameter("email");
         String password = request.getParameter("password");
 
-        user = (NotUser) session.createQuery("FROM NotUser Where email = :email").setParameter("email", email).uniqueResult();
-
-        writer.println(user.getFirstName());
-
-        doGet(request, response);
+        if (loginDao.validate(mail, password)) {
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/index.jsp");
+            dispatcher.forward(request, response);
+        } else {
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/failedLogin.jsp");
+            dispatcher.forward(request, response);
+        }
     }
 }

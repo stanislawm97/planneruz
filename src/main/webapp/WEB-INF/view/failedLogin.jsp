@@ -73,6 +73,7 @@
             <!-- <button class="btn btn-lg btn-primary btn-block btn-grad">Zaloguj się</button>-->
         </div>
     </form>
+    <h5 class="text-danger mt-2">Niepoprawny login lub hasło!</h5>
 </div>
 
 
