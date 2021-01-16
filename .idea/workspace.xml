@@ -27,11 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="chyba juz wszystko dziala">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/NotUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="pobieranie usera po id" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,13 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,12 +308,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NotUserDAO" />
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.107" />
-      <item itemvalue="Application.NotUserDAO" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Application.NotUserDAO" />
         <item itemvalue="Application.NotUserDAO" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.Runner" />
@@ -404,10 +404,9 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_WIDTH">
+              <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="2" value="89" />
-                  <entry key="3" value="89" />
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="89" />
                 </map>
               </option>
             </State>
