@@ -13,7 +13,7 @@ public class User_String implements Serializable {
     private String password;
     private String email;
     private String field;
-    private String group;
+    private String groupa;
     private String secondGroup;
 
     public String getName() {
@@ -56,12 +56,12 @@ public class User_String implements Serializable {
         this.field = field;
     }
 
-    public String getGroup() {
-        return group;
+    public String getGroupa() {
+        return groupa;
     }
 
-    public void setGroup(String group) {
-        this.group = group;
+    public void setGroupa(String group) {
+        this.groupa = group;
     }
 
     public String getSecondGroup() {

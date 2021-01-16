@@ -6,7 +6,16 @@
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://ec2-52-48-65-240.eu-west-1.compute.amazonaws.com:5432/dsevdq9jdk2nv</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="c5dd5fb0-f0b6-4a1e-846c-fc86616845c9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/matix/planneruz/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-48-65-240.eu-west-1.compute.amazonaws.com:5432/dsevdq9jdk2nv?sslmode=require</jdbc-url>
     </data-source>
   </component>
 </project>

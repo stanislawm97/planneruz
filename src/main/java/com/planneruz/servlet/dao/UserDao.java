@@ -25,7 +25,7 @@ public class UserDao {
             PreparedStatement preparedStatement = connection.prepareStatement(INSERT_USERS_SQL);
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getLastName());
-            preparedStatement.setString(3, user.getGroup());
+            preparedStatement.setString(3, user.getGroupa());
             preparedStatement.setString(4, user.getSecondGroup());
             preparedStatement.setString(5, user.getField());
             preparedStatement.setString(6, user.getPassword());

@@ -68,7 +68,7 @@ public class UserTest extends HttpServlet {
         mateusz.setPassword("abcd123");
         mateusz.setEmail("siema@eniu.pl");
         mateusz.setField("Gierki kakuterowe");
-        mateusz.setGroup("INF");
+        mateusz.setGroupa("INF");
         mateusz.setSecondGroup("B");
 
         session.beginTransaction();
