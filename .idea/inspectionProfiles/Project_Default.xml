@@ -9,8 +9,15 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="1">
+          <list size="8">
             <item index="0" class="java.lang.String" itemvalue="charset" />
+            <item index="1" class="java.lang.String" itemvalue="integrity" />
+            <item index="2" class="java.lang.String" itemvalue="crossorigin" />
+            <item index="3" class="java.lang.String" itemvalue="oninput" />
+            <item index="4" class="java.lang.String" itemvalue="placeholder" />
+            <item index="5" class="java.lang.String" itemvalue="pattern" />
+            <item index="6" class="java.lang.String" itemvalue="required" />
+            <item index="7" class="java.lang.String" itemvalue="autofocus" />
           </list>
         </value>
       </option>
@@ -19,7 +26,7 @@
     <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="7">
+          <list size="8">
             <item index="0" class="java.lang.String" itemvalue="nobr" />
             <item index="1" class="java.lang.String" itemvalue="noembed" />
             <item index="2" class="java.lang.String" itemvalue="comment" />
@@ -27,13 +34,14 @@
             <item index="4" class="java.lang.String" itemvalue="embed" />
             <item index="5" class="java.lang.String" itemvalue="script" />
             <item index="6" class="java.lang.String" itemvalue="footer" />
+            <item index="7" class="java.lang.String" itemvalue="style" />
           </list>
         </value>
       </option>
       <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
     <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
-      <option name="myAdditionalRequiredHtmlAttributes" value="type" />
+      <option name="myAdditionalRequiredHtmlAttributes" value="type,content" />
     </inspection_tool>
   </profile>
 </component>

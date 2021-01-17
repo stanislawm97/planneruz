@@ -1,4 +1,4 @@
-package com.planneruz_.servlet;
+package com.planneruz.controller;
 
 import com.planneruz_.dao.NotUserDAO;
 import com.planneruz_.model.NotUser;
@@ -12,24 +12,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/register")
-public class Register extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+@WebServlet(name = "register_servlet", urlPatterns = "/register")
+public class RegisterServlet extends HttpServlet {
 
     private NotUserDAO notUserDao;
 
-    public void init() {
+    @Override
+    public void init() throws ServletException {
         notUserDao = new NotUserDAO();
+        super.init();
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        register(request, response);
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/WEB-INF/view/register.jsp").forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        register(request, response);
     }
 
     private void register(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -56,6 +57,4 @@ public class Register extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/login.jsp");
         dispatcher.forward(request, response);
     }
-
-
 }

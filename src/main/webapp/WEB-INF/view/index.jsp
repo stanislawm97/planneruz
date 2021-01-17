@@ -7,12 +7,11 @@
 <body>
 <div id="container">
     <div id="header">
-        <jsp:include flush="true" page="/WEB-INF/view/navbar.jsp"/>
+        <jsp:include flush="true" page="/WEB-INF/components/navbar.jsp"/>
     </div>
 
-    <!-- Center Column -->
-    <div class="col-sm-10">
-        <jsp:include flush="true" page="/WEB-INF/view/calendar.jsp"/>
+    <div class="text-center mt-5">
+        <jsp:include flush="true" page="/WEB-INF/components/calendar.jsp"/>
     </div>
 </div>
 </body>

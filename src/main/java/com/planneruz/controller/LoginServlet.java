@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "login_servlet", value = "/login")
+@WebServlet(name = "login_servlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
 
     private NotUserDAO loginDao;

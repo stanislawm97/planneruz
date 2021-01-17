@@ -1,35 +1,24 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1" %>
+<%@ page contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Bootstrap Core CSS -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
     <link href="resources/css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <style>
         body {
-            background: #e6e6ff;
+            background: #ffffff;
             font-family: 'Encode Sans', sans-serif;
         }
 
         /* navigation bar */
         #scanfcode {
-            border-radius: 0px;
+            border-radius: 0;
             background: #fff;
             padding: 10px;
             font-size: 17px;
@@ -47,7 +36,7 @@
         #link a {
             color: #01325d;
             margin: 0 20px 0 10px;
-            letter-spacing: 1.5px;
+            letter-spacing: 2px;
         }
 
         /* navigation link with right border */
@@ -56,54 +45,39 @@
             border-right: solid 1px #ccc;
         }
 
-        /* sign up link button and toggle button */
-        #button-link, #toogle-button {
-            color: #f2f2f2;
-            border-style: solid;
-            border-width: 1px;
-            border-color: rgba(0, 0, 0, .2);
-            border-radius: 2px;
-            background-color: #fa6a48;
-            line-height: 17px;
-        }
-
-        #button-link a {
-            color: #f2f2f2;
-        }
     </style>
 
+    <title>Planneruz</title>
 </head>
 
 <body>
 
 <nav id="scanfcode" class="navbar">
     <div class="container-fluid">
+
         <div class="navbar-header">
             <button type="button" id="toogle-button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#myNavbar">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
-            <a id="logo" class="navbar-brand" href="#">UZ planner</a>
+            <a id="logo" class="navbar-brand" href="${pageContext.request.contextPath}/">Planneruz</a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
 
+        <div class="collapse navbar-collapse" id="myNavbar">
             <ul id="link" class="nav navbar-nav navbar-right">
                 <li class="dropdown" id="first-link">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Wiecej <span class="caret"></span></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Wiecej<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Page 1-1</a></li>
                         <li><a href="#">Page 1-2</a></li>
                         <li><a href="#">Page 1-3</a></li>
                     </ul>
                 </li>
-                <li><a href='/planneruz/login'>Zaloguj</a></li>
-                <li id="button-link"><a href="#">Zarejestruj</a></li>
+                <li><a href='${pageContext.request.contextPath}/login'>Zaloguj</a></li>
             </ul>
         </div>
     </div>
 </nav>
-</body>
-</html>
 
 <!-- jQuery -->
 <script src="resources/js/jquery-1.11.3.min.js"></script>
@@ -116,6 +90,5 @@
 
 <!-- Placeholder Images -->
 <script src="resources/js/holder.min.js"></script>
-
 </body>
 </html>

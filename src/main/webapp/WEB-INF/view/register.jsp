@@ -1,19 +1,14 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-
     <title>Rejestracja</title>
-
 </head>
-<body>
 
+<body>
 <style>
 
     .btn-grad {
@@ -43,7 +38,7 @@
 
 <div class="text-center mt-5">
     <form action="<%=request.getContextPath()%>/register" method="post" style="max-width: 450px; margin:auto;"
-          oninput='repeatPassword.setCustomValidity(repeatPassword.value != password.value ? "Hasła nie są takie same" : "")'>
+          oninput='repeatPassword.setCustomValidity(repeatPassword.value !== password.value ? "Hasła nie są takie same" : "")'>
         <img class="mt-4 mb-4" src="resources/img/avatar.png" height="72" alt="Avatar logo"/>
         <h1 class="h3 mb-3 font-weight-normal">Rejestracja</h1>
 
