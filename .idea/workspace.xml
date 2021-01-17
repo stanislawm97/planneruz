@@ -27,37 +27,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="paseczek">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/LoginServlet.java" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="[stanislawm97] refactor package - refactor code">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/controller/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/dao/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/NotUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/dao/NotUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/helpers/ReadFromWebServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/helpers/ReadFromWebServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/helpers/WebData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/helpers/WebData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/helpers/WebDataJsonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/helpers/WebDataJsonClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/ClassDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/ClassDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/FieldOfStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/FieldOfStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/NotUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/NotUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/StudentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/model/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/CalendarEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/CalendarEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/UserTestV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/UserTestV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/servlet/model/User_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz_/servlet/model/User_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610820963394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[stanislawm97] refactor package - refactor code">
+      <created>1610911050523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610911050523</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +429,8 @@
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
     <MESSAGE value="Dodawanie użytkownika do bazy" />
     <MESSAGE value="paseczek" />
-    <option name="LAST_COMMIT_MESSAGE" value="paseczek" />
+    <MESSAGE value="[stanislawm97] refactor package - refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="[stanislawm97] refactor package - refactor code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
