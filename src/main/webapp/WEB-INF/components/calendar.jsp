@@ -25,7 +25,7 @@
                 initialDate: yyyy + '-' + mm + '-' + dd,
                 locale: initialLocaleCode,
                 buttonIcons: false, // show the prev/next text
-                weekNumbers: true,
+                weekNumbers: false,
                 navLinks: true, // can click day/week names to navigate views
                 editable: false,
                 dayMaxEvents: true, // allow "more" link when too many events
@@ -62,14 +62,6 @@
             font-size: 14px;
         }
 
-        #top {
-            background: #eee;
-            border-bottom: 1px solid #ddd;
-            padding: 0 10px;
-            line-height: 40px;
-            font-size: 12px;
-        }
-
         #calendar {
             max-width: 1100px;
             margin: 40px auto;
@@ -80,9 +72,7 @@
 </head>
 <body>
 
-<div>
-    <div id='calendar'></div>
-</div>
+<div id='calendar'></div>
 
 </body>
 </html>

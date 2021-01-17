@@ -35,6 +35,9 @@
 
 </style>
 
+<div id="header">
+    <jsp:include flush="true" page="/WEB-INF/components/navbar.jsp"/>
+</div>
 
 <div class="text-center mt-5">
     <form action="<%=request.getContextPath()%>/register" method="post" style="max-width: 450px; margin:auto;"
