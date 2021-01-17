@@ -76,42 +76,6 @@
 
 <body>
 
-<!-- Navigation -->
-<%--<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <!-- Logo and responsive toggle -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-globe"></span> Logo</a>
-        </div>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="#">Home</a>
-                </li>
-            </ul>
-
-            <!-- Search -->
-            <form class="navbar-form navbar-right" role="search">
-                <div class="form-studentGroup">
-                    <input type="text" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Search
-                </button>
-            </form>
-
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>--%>
-
 <nav id="scanfcode" class="navbar">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -132,7 +96,7 @@
                         <li><a href="#">Page 1-3</a></li>
                     </ul>
                 </li>
-                <li><a href='#'>Zaloguj</a></li>
+                <li><a href='/planneruz/login'>Zaloguj</a></li>
                 <li id="button-link"><a href="#">Zarejestruj</a></li>
             </ul>
         </div>

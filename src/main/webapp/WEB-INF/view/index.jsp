@@ -14,15 +14,6 @@
     <div class="col-sm-10">
         <jsp:include flush="true" page="/WEB-INF/view/calendar.jsp"/>
     </div>
-
-    <footer>
-        <div class="small-print">
-            <div class="container">
-                <p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
-                <p>Copyright &copy; Example.com 2015 </p>
-            </div>
-        </div>
-    </footer>
 </div>
 </body>
 </html>
