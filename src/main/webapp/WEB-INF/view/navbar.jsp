@@ -21,12 +21,63 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        body {
+            background: #e6e6ff;
+            font-family: 'Encode Sans', sans-serif;
+        }
+
+        /* navigation bar */
+        #scanfcode {
+            border-radius: 0px;
+            background: #fff;
+            padding: 10px;
+            font-size: 17px;
+        }
+
+        /* logo or main heading */
+        #logo {
+            font-size: 20px;
+            font-weight: bolder;
+            color: #00004d;
+            letter-spacing: 2px;
+        }
+
+        /* navigation links*/
+        #link a {
+            color: #01325d;
+            margin: 0 20px 0 10px;
+            letter-spacing: 1.5px;
+        }
+
+        /* navigation link with right border */
+        #first-link {
+            padding-right: 6px;
+            border-right: solid 1px #ccc;
+        }
+
+        /* sign up link button and toggle button */
+        #button-link, #toogle-button {
+            color: #f2f2f2;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgba(0, 0, 0, .2);
+            border-radius: 2px;
+            background-color: #fa6a48;
+            line-height: 17px;
+        }
+
+        #button-link a {
+            color: #f2f2f2;
+        }
+    </style>
+
 </head>
 
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+<%--<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
         <!-- Logo and responsive toggle -->
         <div class="navbar-header">
@@ -59,7 +110,36 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
+</nav>--%>
+
+<nav id="scanfcode" class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" id="toogle-button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <a id="logo" class="navbar-brand" href="#">UZ planner</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <ul id="link" class="nav navbar-nav navbar-right">
+                <li class="dropdown" id="first-link">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Wiecej <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href='#'>Zaloguj</a></li>
+                <li id="button-link"><a href="#">Zarejestruj</a></li>
+            </ul>
+        </div>
+    </div>
 </nav>
+</body>
+</html>
 
 <!-- jQuery -->
 <script src="resources/js/jquery-1.11.3.min.js"></script>
