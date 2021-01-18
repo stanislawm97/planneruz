@@ -6,16 +6,14 @@
 
     <div class="row mt-4">
         <div class="col-sm-6">
-            <label for="name" class="sr-only">Imię</label>
-            <input type="text" id="name" name="name" class="form-control" placeholder="Imię"
-                   pattern="[A-Za-z0-9]{3,}"
-                   title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required autofocus>
-        </div>
-        <div class="col-sm-6">
-            <label for="lastName" class="sr-only">Nazwisko</label>
-            <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control"
+            <label for="login" class="sr-only">email</label>
+            <input type="text" id="login" name="login" class="form-control" placeholder="Login"
                    pattern="[A-Za-z0-9]{3,}"
                    title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
+        </div>
+        <div class="col-sm-6">
+            <label for="login" class="sr-only">login</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
         </div>
     </div>
 
@@ -35,17 +33,18 @@
         </div>
     </div>
 
-
     <div class="row mt-4">
         <div class="col-sm-6">
-            <label for="login" class="sr-only">email</label>
-            <input type="text" id="login" name="login" class="form-control" placeholder="Login"
+            <label for="name" class="sr-only">Imię</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Imię"
                    pattern="[A-Za-z0-9]{3,}"
-                   title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
+                   title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required autofocus>
         </div>
         <div class="col-sm-6">
-            <label for="login" class="sr-only">login</label>
-            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+            <label for="lastName" class="sr-only">Nazwisko</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control"
+                   pattern="[A-Za-z0-9]{3,}"
+                   title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
         </div>
     </div>
 

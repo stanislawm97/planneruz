@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
-public class NotUser implements Serializable {
+public class Student implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -82,7 +82,7 @@ public class NotUser implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        NotUser user = (NotUser) o;
+        Student user = (Student) o;
         return Objects.equals(id, user.id) &&
                 Objects.equals(firstName, user.firstName) &&
                 Objects.equals(lastName, user.lastName) &&

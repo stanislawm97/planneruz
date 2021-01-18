@@ -28,9 +28,7 @@
         <property name="hibernate.current_session_context_class">thread</property>
 
         <!-- Annotated entity classes -->
-        <mapping class="com.planneruz_.entity.Car"/>
-        <mapping class="com.planneruz.database.model.User_String"/>
-        <mapping class="com.planneruz.database.model.NotUser"/>
+        <mapping class="com.planneruz.database.model.Student"/>
         <mapping class="com.planneruz.database.model.StudentGroup"/>
         <mapping class="com.planneruz.database.model.Exam"/>
         <mapping class="com.planneruz.database.model.ClassDetails"/>

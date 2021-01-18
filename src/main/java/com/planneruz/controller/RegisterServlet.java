@@ -1,7 +1,7 @@
 package com.planneruz.controller;
 
-import com.planneruz.database.dao.NotUserDAO;
-import com.planneruz.database.model.NotUser;
+import com.planneruz.database.dao.StudentDao;
+import com.planneruz.database.model.Student;
 import com.planneruz.database.model.StudentGroup;
 
 import javax.servlet.RequestDispatcher;
@@ -15,11 +15,11 @@ import java.io.IOException;
 @WebServlet(name = "register_servlet", urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
 
-    private NotUserDAO notUserDao;
+    private StudentDao studentDao;
 
     @Override
     public void init() throws ServletException {
-        notUserDao = new NotUserDAO();
+        studentDao = new StudentDao();
         super.init();
     }
 
@@ -43,16 +43,16 @@ public class RegisterServlet extends HttpServlet {
         String groupCode = request.getParameter("groupCode");
         String subGroup = request.getParameter("subGroup");
 
-        StudentGroup group = notUserDao.getGroup(groupCode, subGroup);
+        StudentGroup group = studentDao.getGroup(groupCode, subGroup);
 
-        NotUser user = new NotUser();
+        Student user = new Student();
         user.setFirstName(firstName);
         user.setLastName(lastName);
         user.setLogin(username);
         user.setPassword(password);
         user.setEmail(email);
         user.setGroup(group);
-        notUserDao.saveUser(user);
+        studentDao.saveUser(user);
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/login.jsp");
         dispatcher.forward(request, response);
