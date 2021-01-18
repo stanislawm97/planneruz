@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="resources/css/index_custom.css" rel="stylesheet">
+    <link href="resources/css/login_custom.css" rel="stylesheet">
 
     <title>Planneruz</title>
 </head>
@@ -22,21 +22,16 @@
             <jsp:include flush="true" page="/WEB-INF/components/navbar_component.jsp"/>
         </div>
 
-        <div class="text-center border-bottom border-gray">
-            <jsp:include flush="true" page="/WEB-INF/components/calendar_component.jsp"/>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Niepoprawny login lub haslo!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
 
-        <form class="text-center border-bottom border-gray"
-              action="<%=request.getContextPath()%>/?studentGroup=<%=request.getParameter("studentGrope") %>">
-            <select name="studentGroup" class="form-control" style="margin-top: 8px;">
-                <option value="empty">Wybierz grupe dziekanska</option>
-                <option value="33INF-SSI-SP">33INF-SSI-SP</option>
-            </select>
-
-            <div class="mt-2" style="margin-bottom: 8px;">
-                <input class="btn btn-sm btn-outline-secondary btn-block" type="submit" value="Zobacz plan"/>
-            </div>
-        </form>
+        <div class="text-center mt-5 border-bottom border-gray">
+            <jsp:include flush="true" page="/WEB-INF/components/login_component.jsp"/>
+        </div>
 
         <footer class="container py-5">
             <jsp:include flush="true" page="/WEB-INF/components/footer_component.jsp"/>
