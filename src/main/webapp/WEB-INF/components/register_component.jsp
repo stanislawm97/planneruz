@@ -49,9 +49,9 @@
         </div>
     </div>
 
+    <div class="card-deck mt-4 mb-3 text-center">
 
-    <div class="row mt-4">
-        <div class="col-sm-6">
+        <div class="card mb-4 shadow-sm">
             <label for="field" class="sr-only">Kierunek: </label>
             <select name="field" id="field">
                 <option disabled selected value>Kierunek studiów</option>
@@ -59,16 +59,15 @@
             </select>
         </div>
 
-        <div class="col-sm-6">
+        <div class="card mb-4 shadow-sm">
             <label for="groupCode" class="sr-only">Grupa: </label>
             <select name="groupCode" id="groupCode">
                 <option disabled selected value>Grupa</option>
-                <option value="32INF">32INF</option>
-                <option value="31INF">31INF</option>
+                <option value="33INF-SSI-SP">33INF-SSI-SP</option>
             </select>
         </div>
 
-        <div class="col-sm-6">
+        <div class="card mb-4 shadow-sm">
             <label for="subGroup" class="sr-only">Podgrupa: </label>
             <select name="subGroup" id="subGroup">
                 <option disabled selected value>Podgrupa</option>
@@ -80,7 +79,7 @@
     </div>
 
     <div class="mt-4" style="max-width: 300px; margin: auto;">
-        <input class="btn btn-lg btn-outline-secondary btn-block btn-grad" type="submit" name="login"
+        <input class="btn btn-lg btn-outline-secondary btn-block" style="margin: 4px;" type="submit" name="login"
                value="Rejestracja"/>
     </div>
 

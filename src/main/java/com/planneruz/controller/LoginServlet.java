@@ -1,6 +1,6 @@
 package com.planneruz.controller;
 
-import com.planneruz_.dao.NotUserDAO;
+import com.planneruz.database.dao.NotUserDAO;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

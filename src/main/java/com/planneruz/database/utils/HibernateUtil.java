@@ -1,4 +1,4 @@
-package com.planneruz_.dao;
+package com.planneruz.database.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;

@@ -29,14 +29,14 @@
 
         <!-- Annotated entity classes -->
         <mapping class="com.planneruz_.entity.Car"/>
-        <mapping class="com.planneruz_.servlet.model.User_String"/>
-        <mapping class="com.planneruz_.model.NotUser"/>
-        <mapping class="com.planneruz_.model.StudentGroup"/>
-        <mapping class="com.planneruz_.model.Exam"/>
-        <mapping class="com.planneruz_.model.ClassDetails"/>
-        <mapping class="com.planneruz_.model.Subject"/>
-        <mapping class="com.planneruz_.model.Teacher"/>
-        <mapping class="com.planneruz_.model.FieldOfStudy"/>
+        <mapping class="com.planneruz.database.model.User_String"/>
+        <mapping class="com.planneruz.database.model.NotUser"/>
+        <mapping class="com.planneruz.database.model.StudentGroup"/>
+        <mapping class="com.planneruz.database.model.Exam"/>
+        <mapping class="com.planneruz.database.model.ClassDetails"/>
+        <mapping class="com.planneruz.database.model.Subject"/>
+        <mapping class="com.planneruz.database.model.Teacher"/>
+        <mapping class="com.planneruz.database.model.FieldOfStudy"/>
 
     </session-factory>
 </hibernate-configuration>

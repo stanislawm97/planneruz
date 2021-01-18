@@ -1,4 +1,4 @@
-package com.planneruz_.servlet.model;
+package com.planneruz.database.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

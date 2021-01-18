@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=ISO 8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -44,7 +44,7 @@
             });
 
             // when the selected option changes, dynamically change the calendar option
-            localeSelectorEl.addEventListener('change', function() {
+            localeSelectorEl.addEventListener('change', function () {
                 if (this.value) {
                     calendar.setOption('locale', this.value);
                 }
@@ -53,29 +53,13 @@
         });
 
     </script>
-    <style>
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-            font-size: 14px;
-        }
-
-        #calendar {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 10px;
-        }
-
-    </style>
 </head>
 <body>
 
 <div id='calendar'></div>
 
-<small class="d-block mt-3 border-bottom border-gray">
-    <a href="#">All updates</a>
+<small class="d-block mt-3">
+    <a href="http://www.plan.uz.zgora.pl/grupy_lista_kierunkow.php">Uniwersytet Zielonogorski - Plan zajec</a>
 </small>
 
 </body>

@@ -1,4 +1,4 @@
-package com.planneruz_.model;
+package com.planneruz.database.model;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;

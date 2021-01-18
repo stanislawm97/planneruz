@@ -1,4 +1,4 @@
-package com.planneruz_.helpers;
+package com.planneruz.components;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;

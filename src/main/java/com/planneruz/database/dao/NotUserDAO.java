@@ -1,7 +1,8 @@
-package com.planneruz_.dao;
+package com.planneruz.database.dao;
 
-import com.planneruz_.model.NotUser;
-import com.planneruz_.model.StudentGroup;
+import com.planneruz.database.model.NotUser;
+import com.planneruz.database.model.StudentGroup;
+import com.planneruz.database.utils.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

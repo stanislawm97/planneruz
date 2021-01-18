@@ -1,8 +1,8 @@
 package com.planneruz.controller;
 
-import com.planneruz_.dao.NotUserDAO;
-import com.planneruz_.model.NotUser;
-import com.planneruz_.model.StudentGroup;
+import com.planneruz.database.dao.NotUserDAO;
+import com.planneruz.database.model.NotUser;
+import com.planneruz.database.model.StudentGroup;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

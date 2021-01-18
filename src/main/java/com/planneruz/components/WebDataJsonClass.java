@@ -1,4 +1,4 @@
-package com.planneruz_.helpers;
+package com.planneruz.components;
 
 public class WebDataJsonClass {
     String id;
