@@ -25,7 +25,7 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/view/register.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/view/register/register.jsp").forward(request, response);
     }
 
     @Override
@@ -54,7 +54,7 @@ public class RegisterServlet extends HttpServlet {
         user.setGroup(group);
         studentDao.saveUser(user);
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/login.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/register/register_success.jsp");
         dispatcher.forward(request, response);
     }
 }

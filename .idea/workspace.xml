@@ -27,22 +27,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="[18.01.2021 09:59] kolejne poprawki">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne.">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register/register_success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/database/dao/NotUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/database/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/database/model/NotUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/database/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/database/model/User_String.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/register_component.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/register_component.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/calendar_component.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/calendar_component.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/navbar_component.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/navbar_component.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/failedLogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login/login_failed.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/resources/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -104,15 +99,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\register" />
       <recent name="D:\planneruz\src\main\webapp\resources\css" />
       <recent name="D:\planneruz\src\main\webapp\WEB-INF\components" />
       <recent name="C:\Users\matix\planneruz\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view" />
-      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\register" />
       <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\login" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\register" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view" />
       <recent name="D:\planneruz\src\main\webapp\resources\img" />
       <recent name="D:\planneruz\src\main\webapp\resources" />
     </key>
@@ -439,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610960378506</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne.">
+      <created>1610966981144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610966981144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +478,8 @@
     <MESSAGE value="[stanislawm97] License change" />
     <MESSAGE value="[stanislawm97] [18.01.2021 00:25] na dzisiaj starczy - w tym momencie działa." />
     <MESSAGE value="[18.01.2021 09:59] kolejne poprawki" />
-    <option name="LAST_COMMIT_MESSAGE" value="[18.01.2021 09:59] kolejne poprawki" />
+    <MESSAGE value="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne." />
+    <option name="LAST_COMMIT_MESSAGE" value="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
