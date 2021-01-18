@@ -23,7 +23,6 @@
           <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.10.2" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.15" />
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-impl:2.2.15" />
-          <element id="library" level="project" name="Maven: org.primefaces:primefaces:8.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.4.2" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.4.2" />
