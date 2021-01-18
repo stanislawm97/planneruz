@@ -27,15 +27,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Hashowanie haseł">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/database/model/Password.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/planneruz_war_exploded.xml" afterDir="false" />
+    <list default="true" id="42f288ec-5d16-4e25-a2b7-c483f9cd4157" name="Default Changelist" comment="Przed pobraniem mastera.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/CalendarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/database/dao/StudentGroupDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planneruz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planneruz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/controller/RegisterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/planneruz/database/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/planneruz/database/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/navbar_component.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/components/navbar_component.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +55,6 @@
       </list>
     </option>
   </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -64,19 +63,15 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/components/navbar_component.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1k7QxtAsbOKjnZHjm1zCM9w1KdG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -92,23 +87,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jee-tutorial-youtube-master/jee-tutorial-youtube-master/j2eeapplication" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\register" />
+      <recent name="D:\planneruz\src\main\webapp\resources\css" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\components" />
+      <recent name="C:\Users\matix\planneruz\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\login" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view\register" />
+      <recent name="D:\planneruz\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\planneruz\src\main\webapp\resources\img" />
+      <recent name="D:\planneruz\src\main\webapp\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.planneruz.servlet" />
       <recent name="com.planneruz.entity" />
       <recent name="com.planneruz.dao.impl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\matix\planneruz\src\main\webapp\WEB-INF\view" />
-      <recent name="C:\Users\stani\IdeaProjects\planneruz\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.107">
@@ -341,10 +348,12 @@
       <workItem from="1610543536550" duration="1501000" />
       <workItem from="1610552351201" duration="6415000" />
       <workItem from="1610644090529" duration="7288000" />
-      <workItem from="1610737279665" duration="103000" />
-      <workItem from="1610737759600" duration="24000" />
-      <workItem from="1610970004452" duration="2597000" />
-      <workItem from="1610983746762" duration="4371000" />
+      <workItem from="1610824853787" duration="322000" />
+      <workItem from="1610952120334" duration="12951000" />
+      <workItem from="1610981595143" duration="801000" />
+      <workItem from="1610986608655" duration="1647000" />
+      <workItem from="1611000446897" duration="1673000" />
+      <workItem from="1611002288285" duration="8418000" />
     </task>
     <task id="LOCAL-00001" summary="[NO-TASK] Initial commit.">
       <created>1605111191615</created>
@@ -395,21 +404,63 @@
       <option name="project" value="LOCAL" />
       <updated>1610543579285</updated>
     </task>
-    <task id="LOCAL-00008" summary="rejestracja i logowanie">
-      <created>1610737352182</created>
+    <task id="LOCAL-00008" summary="paseczek">
+      <created>1610820963394</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1610737352182</updated>
+      <updated>1610820963394</updated>
     </task>
-    <task id="LOCAL-00009" summary="rejestracja i logowanie">
-      <created>1610970074777</created>
+    <task id="LOCAL-00009" summary="[stanislawm97] refactor package - refactor code">
+      <created>1610911050523</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1610970074777</updated>
+      <updated>1610911050523</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[stanislawm97] License change">
+      <created>1610911214964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610911214964</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[stanislawm97] [18.01.2021 00:25] na dzisiaj starczy - w tym momencie działa.">
+      <created>1610925938689</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610925938689</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[18.01.2021 09:59] kolejne poprawki">
+      <created>1610960378506</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610960378506</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne.">
+      <created>1610966981144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610966981144</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[18.01.2021 15:47] Dodano wybór grupy dziekańskiej.">
+      <created>1610981288198</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610981288198</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Przed pobraniem mastera.">
+      <created>1610991600595</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610991600595</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,10 +472,9 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_WIDTH">
+              <option name="COLUMN_ID_WIDTH">
                 <map>
-                  <entry key="2" value="89" />
-                  <entry key="3" value="89" />
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="89" />
                 </map>
               </option>
             </State>
@@ -441,89 +491,17 @@
     <MESSAGE value="ekport tabel" />
     <MESSAGE value="jdbc dummy classes oraz dummy data" />
     <MESSAGE value="Dodawanie użytkownika do bazy" />
-    <MESSAGE value="rejestracja i logowanie" />
-    <MESSAGE value="Hashowanie haseł" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hashowanie haseł" />
+    <MESSAGE value="paseczek" />
+    <MESSAGE value="[stanislawm97] refactor package - refactor code" />
+    <MESSAGE value="[stanislawm97] License change" />
+    <MESSAGE value="[stanislawm97] [18.01.2021 00:25] na dzisiaj starczy - w tym momencie działa." />
+    <MESSAGE value="[18.01.2021 09:59] kolejne poprawki" />
+    <MESSAGE value="[18.01.2021 11:49] Poprawki bezpieczeństwa - bardzo ważne." />
+    <MESSAGE value="[18.01.2021 15:47] Dodano wybór grupy dziekańskiej." />
+    <MESSAGE value="Przed pobraniem mastera." />
+    <option name="LAST_COMMIT_MESSAGE" value="Przed pobraniem mastera." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="395" y="91" key="#Inspections" timestamp="1610987804864">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1610987804864" />
-    <state x="520" y="236" key="#Notifications" timestamp="1610479440098">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="520" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1610479440098" />
-    <state x="312" y="246" key="#Template_Data_Languages" timestamp="1610554442917">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="312" y="246" key="#Template_Data_Languages/0.0.1536.824@0.0.1536.824" timestamp="1610554442917" />
-    <state x="554" y="291" key="#Tomcat_Server" timestamp="1610555545522">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="554" y="291" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1610555545522" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610533017900">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1610533017900" />
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610537474800">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1610537474800" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1610466586456">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610466586456" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1610986559236">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610986559236" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1610986559236">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610986559236" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1610986559236">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610986559236" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1610986559236">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610986559236" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1610983778554">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1610983778554" />
-    <state x="464" y="21" key="Maven.ArtifactSearchDialog" timestamp="1610984651156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="464" y="21" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1610984651156" />
-    <state x="147" y="65" key="MergeDialog" timestamp="1610540020113">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1610540020113" />
-    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1610970085061">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1610970085061" />
-    <state x="461" y="171" key="Vcs.Multiple.Commit.Info.Dialog.Key" timestamp="1610540012659">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="171" key="Vcs.Multiple.Commit.Info.Dialog.Key/0.0.1536.824@0.0.1536.824" timestamp="1610540012659" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610737781405">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610737781405" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610970057187">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1610970057187" />
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog" timestamp="1610479166661">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="550" y="125" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.824@0.0.1536.824" timestamp="1610479166661" />
   </component>
 </project>
