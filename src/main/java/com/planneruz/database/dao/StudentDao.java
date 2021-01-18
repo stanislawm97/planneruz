@@ -10,15 +10,7 @@ import org.hibernate.Transaction;
 
 public class StudentDao {
 
-    public static void main(String[] args) {
-        StudentDao u = new StudentDao();
-        Student user = u.getStudentById(4L);
-        System.out.println(user.getFirstName());
-
-    }
-
     public Student getStudentById(Long id) {
-
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
@@ -29,8 +21,18 @@ public class StudentDao {
         return user;
     }
 
-    public boolean validate(String email, String password) {
+    public Student getStudentByEmail(String email) {
+        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+        Session session = sessionFactory.openSession();
+        session.beginTransaction();
 
+        Student user = (Student) session.createQuery("FROM Student U WHERE U.email = :email").setParameter("email", email).uniqueResult();
+        session.getTransaction().commit();
+        sessionFactory.close();
+        return user;
+    }
+
+    public boolean validate(String email, String password) {
         Transaction transaction = null;
         Student user = null;
         Password hashedPassword = null;

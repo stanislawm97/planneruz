@@ -1,3 +1,8 @@
+<%@ page import="com.planneruz.database.model.Student" %>
+<%@ page import="com.planneruz.database.dao.StudentDao" %>
+<%@ page import="com.planneruz.database.model.StudentGroup" %>
+<%@ page import="com.planneruz.database.dao.StudentGroupDao" %>
+<%@ page import="java.util.List" %>
 <%@ page contentType="text/html; charset=ISO 8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="pl">

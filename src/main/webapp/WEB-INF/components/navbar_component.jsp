@@ -9,9 +9,20 @@
         <a class="p-2 text-dark" href="${pageContext.request.contextPath}/">Plan zajęć</a>
     </nav>
 
+    <%
+        Object id = session.getAttribute("id");
+        if (id != null) {
+    %>
+
+    <a class="btn btn-outline-secondary" style="margin: 4px;"
+       href="${pageContext.request.contextPath}/login">Wyloguj</a>
+
+    <%} else {%>
+
     <a class="btn btn-outline-secondary" style="margin: 4px;"
        href="<%=request.getContextPath()%>/register">Zarejestruj</a>
     <a class="btn btn-outline-secondary" style="margin: 4px;"
        href="${pageContext.request.contextPath}/login">Zaloguj</a>
 
+    <%}%>
 </div>
