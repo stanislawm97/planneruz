@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/WEB-INF/view/login.jsp").forward(request, response);
+        request.getRequestDispatcher("/WEB-INF/view/login/login.jsp").forward(request, response);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
             RequestDispatcher dispatcher = request.getRequestDispatcher("/");
             dispatcher.forward(request, response);
         } else {
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/failedLogin.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/view/login/login_failed.jsp");
             dispatcher.forward(request, response);
         }
     }

@@ -7,13 +7,11 @@
 
     <nav class="my-2 my-md-0 mr-md-3">
         <a class="p-2 text-dark" href="${pageContext.request.contextPath}/">Plan zajęć</a>
-        <a class="p-2 text-dark" href="#">Enterprise</a>
-        <a class="p-2 text-dark" href="#">Support</a>
-        <a class="p-2 text-dark" href="#">Pricing</a>
     </nav>
 
     <a class="btn btn-outline-secondary" style="margin: 4px;"
        href="<%=request.getContextPath()%>/register">Zarejestruj</a>
-    <a class="btn btn-outline-secondary" style="margin: 4px;" href="<%=request.getContextPath()%>/login">Zaloguj</a>
+    <a class="btn btn-outline-secondary" style="margin: 4px;"
+       href="${pageContext.request.contextPath}/login">Zaloguj</a>
 
 </div>

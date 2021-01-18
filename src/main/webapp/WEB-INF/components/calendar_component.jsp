@@ -11,11 +11,21 @@
             var initialLocaleCode = 'pl';
             var localeSelectorEl = document.getElementById('locale-selector');
             var calendarEl = document.getElementById('calendar');
-
             var today = new Date();
             var dd = String(today.getDate()).padStart(2, '0');
             var mm = String(today.getMonth() + 1).padStart(2, '0');
             var yyyy = today.getFullYear();
+
+            var queryString = window.location.search;
+            var urlParams = new URLSearchParams(queryString);
+
+            var url = ' ';
+            if (urlParams.get('studentGroup') === "33INF-SSI-SP") {
+                url = 'http://localhost:8080/planneruz/read-from-web';
+            } else {
+                url = ' ';
+            }
+
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 headerToolbar: {
                     left: 'prev,next today',
@@ -29,7 +39,8 @@
                 navLinks: true, // can click day/week names to navigate views
                 editable: false,
                 dayMaxEvents: true, // allow "more" link when too many events
-                events: 'http://localhost:8080/planneruz/read-from-web'
+                events: url
+
             });
 
             calendar.render();
@@ -58,7 +69,7 @@
 
 <div id='calendar'></div>
 
-<small class="d-block mt-3">
+<small class="d-block mt-1">
     <a href="http://www.plan.uz.zgora.pl/grupy_lista_kierunkow.php">Uniwersytet Zielonogorski - Plan zajec</a>
 </small>
 
