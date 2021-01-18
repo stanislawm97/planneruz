@@ -1,5 +1,6 @@
 package com.planneruz.database.dao;
 
+import com.planneruz.database.model.Password;
 import com.planneruz.database.model.Student;
 import com.planneruz.database.model.StudentGroup;
 import com.planneruz.database.utils.HibernateUtil;
@@ -32,6 +33,8 @@ public class StudentDao {
 
         Transaction transaction = null;
         Student user = null;
+        Password hashedPassword = null;
+
         try {
             Session session = HibernateUtil.getSessionFactory().openSession();
             // start a transaction
@@ -39,7 +42,7 @@ public class StudentDao {
             // get an user object
             user = (Student) session.createQuery("FROM Student U WHERE U.email = :email").setParameter("email", email).uniqueResult();
 
-            if (user != null && user.getPassword().equals(password)) {
+            if (user != null && hashedPassword.check(password, user.getPassword())) {
                 return true;
             }
             // commit transaction

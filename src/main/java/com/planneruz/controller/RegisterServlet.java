@@ -1,6 +1,7 @@
 package com.planneruz.controller;
 
 import com.planneruz.database.dao.StudentDao;
+import com.planneruz.database.model.Password;
 import com.planneruz.database.model.Student;
 import com.planneruz.database.model.StudentGroup;
 
@@ -34,22 +35,29 @@ public class RegisterServlet extends HttpServlet {
     }
 
     private void register(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+
         String firstName = request.getParameter("name");
         String lastName = request.getParameter("lastName");
         String username = request.getParameter("login");
-        String password = request.getParameter("password");
         String email = request.getParameter("email");
+
+        Password password = null;
+        String hashedPassword = null;
+        try {
+            hashedPassword = password.getSaltedHash(request.getParameter("password"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         String groupCode = request.getParameter("groupCode");
         String subGroup = request.getParameter("subGroup");
-
         StudentGroup group = studentDao.getGroup(groupCode, subGroup);
 
         Student user = new Student();
         user.setFirstName(firstName);
         user.setLastName(lastName);
         user.setLogin(username);
-        user.setPassword(password);
+        user.setPassword(hashedPassword);
         user.setEmail(email);
         user.setGroup(group);
         studentDao.saveUser(user);
