@@ -1,6 +1,6 @@
 package com.planneruz.controller;
 
-import com.planneruz.database.dao.NotUserDAO;
+import com.planneruz.database.dao.StudentDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,11 +13,11 @@ import java.io.IOException;
 @WebServlet(name = "login_servlet", urlPatterns = "/login")
 public class LoginServlet extends HttpServlet {
 
-    private NotUserDAO loginDao;
+    private StudentDao studentDao;
 
     @Override
     public void init() throws ServletException {
-        loginDao = new NotUserDAO();
+        studentDao = new StudentDao();
 
         super.init();
     }
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
         String mail = request.getParameter("email");
         String password = request.getParameter("password");
 
-        if (loginDao.validate(mail, password)) {
+        if (studentDao.validate(mail, password)) {
             RequestDispatcher dispatcher = request.getRequestDispatcher("/");
             dispatcher.forward(request, response);
         } else {

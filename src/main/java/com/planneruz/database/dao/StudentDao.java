@@ -1,28 +1,28 @@
 package com.planneruz.database.dao;
 
-import com.planneruz.database.model.NotUser;
+import com.planneruz.database.model.Student;
 import com.planneruz.database.model.StudentGroup;
 import com.planneruz.database.utils.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
-public class NotUserDAO {
+public class StudentDao {
 
     public static void main(String[] args) {
-        NotUserDAO u = new NotUserDAO();
-        NotUser user = u.getStudentById(4L);
+        StudentDao u = new StudentDao();
+        Student user = u.getStudentById(4L);
         System.out.println(user.getFirstName());
 
     }
 
-    public NotUser getStudentById(Long id) {
+    public Student getStudentById(Long id) {
 
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        NotUser user = (NotUser) session.get(NotUser.class, id);
+        Student user = (Student) session.get(Student.class, id);
         session.getTransaction().commit();
         sessionFactory.close();
         return user;
@@ -31,13 +31,13 @@ public class NotUserDAO {
     public boolean validate(String email, String password) {
 
         Transaction transaction = null;
-        NotUser user = null;
+        Student user = null;
         try {
             Session session = HibernateUtil.getSessionFactory().openSession();
             // start a transaction
             transaction = session.beginTransaction();
             // get an user object
-            user = (NotUser) session.createQuery("FROM NotUser U WHERE U.email = :email").setParameter("email", email).uniqueResult();
+            user = (Student) session.createQuery("FROM Student U WHERE U.email = :email").setParameter("email", email).uniqueResult();
 
             if (user != null && user.getPassword().equals(password)) {
                 return true;
@@ -53,7 +53,7 @@ public class NotUserDAO {
         return false;
     }
 
-    public void saveUser(NotUser user) {
+    public void saveUser(Student user) {
         Transaction transaction = null;
         try {
             Session session = HibernateUtil.getSessionFactory().openSession();
