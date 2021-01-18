@@ -1,86 +1,37 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=ISO 8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="pl">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="resources/css/custom.css" rel="stylesheet">
+    <link href="resources/css/login_custom.css" rel="stylesheet">
 
     <title>Planneruz</title>
 </head>
-<body>
 
-<style>
-    input[type="email"] {
-        border-bottom-left-radius: 0;;
-        border-bottom-right-radius: 0;;
-    }
+<body style="background-color:grey;">
 
-    input[type="password"] {
-        border-top-left-radius: 0;;
-        border-top-right-radius: 0;;
-        border-top: 0;;
-    }
+<main role="main" class="container">
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
 
-    .btn-grad {
-        background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)
-    }
+        <div id="header">
+            <jsp:include flush="true" page="/WEB-INF/components/navbar_component.jsp"/>
+        </div>
 
-    .btn-grad {
+        <div class="text-center mt-5 border-bottom border-gray">
+            <jsp:include flush="true" page="/WEB-INF/components/login_component.jsp"/>
+        </div>
 
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        display: block;
-    }
+        <footer class="container py-5">
+            <jsp:include flush="true" page="/WEB-INF/components/footer_component.jsp"/>
+        </footer>
 
-    .btn-grad:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
-    }
-
-</style>
-
-<div id="header">
-    <jsp:include flush="true" page="/WEB-INF/components/navbar.jsp"/>
-</div>
-
-<div id="container">
-    <div class="text-center mt-5">
-        <form action="<%=request.getContextPath()%>/login" method="post" style="max-width: 350px; margin:auto;">
-            <img class="mt-4 mb-4" src="resources/img/avatar.png" height="72" alt="Avatar logo"/>
-            <h1 class="h3 mb-3 font-weight-normal">Zaloguj się</h1>
-            <label for="emailAddress" class="sr-only">Adres email</label>
-            <input type="email" id="emailAddress" name="email" class="form-control" placeholder="Adres email" required
-                   autofocus>
-            <label for="password" class="sr-only">Hasło</label>
-            <input type="password" id="password" name="password" placeholder="Hasło" class="form-control">
-            <div class="checkbox mt-2">
-                <label>
-                    <input type="checkbox" value="remember-me"> Zapamiętaj mnie
-                </label>
-            </div>
-            <div>
-                <a href="register">Nie masz konta? Zarejestruj się!</a>
-            </div>
-            <div class="mt-2" style="max-width: 300px; margin: auto;">
-
-                <input class="btn btn-lg btn-primary btn-block btn-grad" type="submit" name="login"
-                       value="Zaloguj się"/>
-
-                <!-- <button class="btn btn-lg btn-primary btn-block btn-grad">Zaloguj się</button>-->
-            </div>
-        </form>
     </div>
-
-</div>
+</main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -93,4 +44,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>

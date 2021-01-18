@@ -25,7 +25,11 @@
         </ul>
 
         <form class="form-inline my-2 my-lg-0" action="<%=request.getContextPath()%>/login" method="get">
-            <button class="btn btn-sm btn-outline-secondary" type="submit" value="login">Zaloguj</button>
+            <input class="btn btn-lg btn-outline-secondary btn-block btn-grad" type="submit" value="Zaloguj"/>
+        </form>
+
+        <form class="form-inline my-2 my-lg-0" action="<%=request.getContextPath()%>/register" method="get">
+            <input class="btn btn-lg btn-outline-secondary btn-block btn-grad" type="submit" value="Zarejestruj"/>
         </form>
     </div>
 </nav>

@@ -1,34 +1,37 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=ISO 8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="pl">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="resources/css/custom.css" rel="stylesheet">
+    <link href="resources/css/index_custom.css" rel="stylesheet">
 
     <title>Planneruz</title>
 </head>
 
-<body>
-<div id="container">
-    <div id="header">
-        <jsp:include flush="true" page="/WEB-INF/components/navbar.jsp"/>
-    </div>
+<body style="background-color:grey;">
 
-    <div class="card-body">
-        <div class="text-center mt-5">
-            <jsp:include flush="true" page="/WEB-INF/components/calendar.jsp"/>
+<main role="main" class="container">
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+
+        <div id="header">
+            <jsp:include flush="true" page="/WEB-INF/components/navbar_component.jsp"/>
         </div>
-    </div>
 
+        <div class="text-center mt-5 border-bottom border-gray">
+            <jsp:include flush="true" page="/WEB-INF/components/calendar_component.jsp"/>
+        </div>
 
-    <div id="footer">
-        <jsp:include flush="true" page="/WEB-INF/components/footer.jsp"/>
+        <footer class="container py-5">
+            <jsp:include flush="true" page="/WEB-INF/components/footer_component.jsp"/>
+        </footer>
+
     </div>
-</div>
+</main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

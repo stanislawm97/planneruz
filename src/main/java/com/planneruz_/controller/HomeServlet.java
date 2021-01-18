@@ -22,7 +22,7 @@ public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String path = request.getServletPath();
         if (path.equals("/")) {
-            request.getRequestDispatcher("/WEB-INF/view/calendar.jsp").forward(request, response);
+            request.getRequestDispatcher("/WEB-INF/view/calendar_component.jsp").forward(request, response);
         }
     }
 

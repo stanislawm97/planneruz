@@ -1,136 +1,37 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page contentType="text/html; charset=ISO 8859-2" pageEncoding="UTF-8" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<html lang="pl">
+
 <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
           integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <title>Rejestracja</title>
+    <link href="resources/css/register_custom.css" rel="stylesheet">
+
+    <title>Planneruz</title>
 </head>
 
-<body>
-<style>
+<body style="background-color:grey;">
 
-    .btn-grad {
-        background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%)
-    }
+<main role="main" class="container">
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
 
-    .btn-grad {
-
-        text-align: center;
-        transition: 0.5s;
-        background-size: 200% auto;
-        color: white;
-        box-shadow: 0 0 20px #eee;
-        border-radius: 10px;
-        display: block;
-    }
-
-    .btn-grad:hover {
-        background-position: right center; /* change the direction of the change here */
-        color: #fff;
-        text-decoration: none;
-    }
-
-
-</style>
-
-<div id="header">
-    <jsp:include flush="true" page="/WEB-INF/components/navbar.jsp"/>
-</div>
-
-<div class="text-center mt-5">
-    <form action="<%=request.getContextPath()%>/register" method="post" style="max-width: 450px; margin:auto;"
-          oninput='repeatPassword.setCustomValidity(repeatPassword.value !== password.value ? "Hasła nie są takie same" : "")'>
-        <img class="mt-4 mb-4" src="resources/img/avatar.png" height="72" alt="Avatar logo"/>
-        <h1 class="h3 mb-3 font-weight-normal">Rejestracja</h1>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <label for="name" class="sr-only">Imię</label>
-                <input type="text" id="name" name="name" class="form-control" placeholder="Imię"
-                       pattern="[A-Za-z0-9]{3,}"
-                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required autofocus>
-            </div>
-            <div class="col-sm-6">
-                <label for="lastName" class="sr-only">Nazwisko</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" class="form-control"
-                       pattern="[A-Za-z0-9]{3,}"
-                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
-            </div>
+        <div id="header">
+            <jsp:include flush="true" page="/WEB-INF/components/navbar_component.jsp"/>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-sm-6">
-                <label for="name" class="sr-only">Hasło</label>
-                <input type="password" id="password" name="password" class="form-control" placeholder="Hasło"
-                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                       title="Musi posiadać co najmniej jedną wielką literę, jedną cyfrę i 8 znaków" required>
-            </div>
-            <div class="col-sm-6">
-                <label for="repeatPassword" class="sr-only">Hasło</label>
-                <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Powtórz hasło"
-                       pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                       title="Musi posiadać co najmniej jedną wielką literę, jedną cyfrę i 8 znaków"
-                       class="form-control" required>
-            </div>
+        <div class="text-center mt-5 border-bottom border-gray">
+            <jsp:include flush="true" page="/WEB-INF/components/register_component.jsp"/>
         </div>
 
+        <footer class="container py-5">
+            <jsp:include flush="true" page="/WEB-INF/components/footer_component.jsp"/>
+        </footer>
 
-        <div class="row mt-4">
-            <div class="col-sm-6">
-                <label for="login" class="sr-only">email</label>
-                <input type="text" id="login" name="login" class="form-control" placeholder="Login"
-                       pattern="[A-Za-z0-9]{3,}"
-                       title="Tylko znaki A-Z i 0-9, minimum 3 znaki" required>
-            </div>
-            <div class="col-sm-6">
-                <label for="login" class="sr-only">login</label>
-                <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-            </div>
-        </div>
-
-
-        <div class="row mt-4">
-            <div class="col-sm-6">
-                <label for="field" class="sr-only">Kierunek: </label>
-                <select name="field" id="field">
-                    <option disabled selected value>Kierunek studiów</option>
-                    <option value="Informatyka">Informatyka</option>
-                </select>
-
-            </div>
-            <div class="col-sm-6">
-                <label for="groupCode" class="sr-only">Grupa: </label>
-                <select name="groupCode" id="groupCode">
-                    <option disabled selected value>Grupa</option>
-                    <option value="32INF">32INF</option>
-                    <option value="31INF">31INF</option>
-                </select>
-
-            </div>
-
-        </div>
-
-        <div class="row mt-4">
-            <div class="col-sm-6">
-                <label for="subGroup" class="sr-only">Podgrupa: </label>
-                <select name="subGroup" id="subGroup">
-                    <option disabled selected value>Podgrupa</option>
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="mt-4" style="max-width: 300px; margin: auto;">
-            <button class="btn btn-lg btn-primary btn-block btn-grad" type="submit" value="register">Rejestracja
-            </button>
-        </div>
-
-    </form>
-</div>
-
+    </div>
+</main>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -143,4 +44,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>

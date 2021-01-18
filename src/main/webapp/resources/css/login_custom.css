@@ -1,0 +1,15 @@
+.btn-grad {
+    text-align: center;
+    transition: 0.5s;
+    margin: 4px;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}

@@ -74,5 +74,9 @@
 
 <div id='calendar'></div>
 
+<small class="d-block mt-3 border-bottom border-gray">
+    <a href="#">All updates</a>
+</small>
+
 </body>
 </html>
